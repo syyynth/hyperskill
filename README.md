@@ -1,3 +1,4 @@
+# Python
 ### EASY
 1) 👷🏼‍♂️ Hangman (Python) - https://hyperskill.org/projects/69
 2) 👷🏼‍♂️ Loan Calculator - https://hyperskill.org/projects/90
