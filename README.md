@@ -1,3 +1,4 @@
+Note: 3 months to complete without some unfortunate events 🙈
 # Python
 ### EASY
 1) 👷🏼‍♂️ Hangman (Python) - https://hyperskill.org/projects/69
