@@ -1,4 +1,5 @@
-Note: 3 months to complete without some unfortunate events 🙈
+01.08.2023 the expected date to complete 🙈
+
 # Python
 ### EASY
 1) 👷🏼‍♂️ Hangman (Python) - https://hyperskill.org/projects/69
