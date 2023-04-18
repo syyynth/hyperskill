@@ -1,4 +1,8 @@
-01.08.2023 the expected date to complete 🙈
+The number of projects and their difficulty may vary over time.
+This list is just a todo list. It's fetched and some projects may not be available to everyone (or just unavailable 😂).
+Don't cheat and don't copy solutions; it's useless, harmful and stupid. 🤦🏼‍♂️
+The provided code doesn't follow any strict style guidelines and the style of the project solely depends on the mood of the author. 🙈
+The solution contains code and the test file (all coding problems are omitted).
 
 # Python
 ### EASY
@@ -93,10 +97,11 @@
 81) 👷🏼‍♂️ Robogotchi - https://hyperskill.org/projects/135
 82) 👷🏼‍♂️ Linear Equations Solver (Python) - https://hyperskill.org/projects/144
 83) 👷🏼‍♂️ Text Based Adventure Game - https://hyperskill.org/projects/161
-84) 👷🏼‍♂️ HyperSearch Engine - https://hyperskill.org/projects/168
-85) 👷🏼‍♂️ Colorizer API - https://hyperskill.org/projects/169
-86) 👷🏼‍♂️ Regex Tester (Django) - https://hyperskill.org/projects/218
-87) 👷🏼‍♂️ A/B Test for Delivery App - https://hyperskill.org/projects/233
-88) 👷🏼‍♂️ Read Quality Control - https://hyperskill.org/projects/235
-89) 👷🏼‍♂️ Todo Api - https://hyperskill.org/projects/242
-90) 👷🏼‍♂️ Bike Shop - https://hyperskill.org/projects/266
+84) 👷🏼‍♂️ Colorizer API - https://hyperskill.org/projects/169
+85) 👷🏼‍♂️ Regex Tester (Django) - https://hyperskill.org/projects/218
+86) 👷🏼‍♂️ A/B Test for Delivery App - https://hyperskill.org/projects/233
+87) 👷🏼‍♂️ Read Quality Control - https://hyperskill.org/projects/235
+88) 👷🏼‍♂️ Todo Api - https://hyperskill.org/projects/242
+89) 👷🏼‍♂️ Bike Shop - https://hyperskill.org/projects/266
+
+01.08.2023 the expected date to complete 🙈
