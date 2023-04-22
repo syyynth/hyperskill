@@ -5,10 +5,12 @@ The provided code doesn't follow any strict style guidelines and the style of th
 The solution contains code and the test file (all coding problems are omitted).
 
 ---
-👷🏼‍♂️ - in process [88],
-🐱‍👤 - finished [2]
----
 
+🐍 Total: 90, 
+👷🏼‍♂️ In process: 88,
+🐱‍👤 Done: 2
+
+---
 
 # Python
 ### EASY
