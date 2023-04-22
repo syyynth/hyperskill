@@ -3,10 +3,13 @@ This list is just a todo list. It's fetched and some projects may not be availab
 Don't cheat and don't copy solutions; it's useless, harmful and stupid. 🤦🏼‍♂️
 The provided code doesn't follow any strict style guidelines and the style of the project solely depends on the mood of the author. 🙈
 The solution contains code and the test file (all coding problems are omitted).
-
+---
+👷🏼‍♂️ - in process,
+🐱‍👤 - finished
+---
 # Python
 ### EASY
-1) 👷🏼‍♂️ Hangman (Python) - https://hyperskill.org/projects/69
+1) 🐱‍👤 [Hangman (Python)](https://github.com/syyynth/hyperskill/tree/main/python/0069%20-%20Hangman%20(Python)) - https://hyperskill.org/projects/69
 2) 👷🏼‍♂️ Loan Calculator - https://hyperskill.org/projects/90
 3) 👷🏼‍♂️ Simple Chatty Bot (Python) - https://hyperskill.org/projects/97
 4) 👷🏼‍♂️ Zookeeper (Python) - https://hyperskill.org/projects/98
@@ -43,7 +46,7 @@ The solution contains code and the test file (all coding problems are omitted).
 31) 👷🏼‍♂️ Tetris - https://hyperskill.org/projects/147
 32) 👷🏼‍♂️ Data Analysis for Hospitals - https://hyperskill.org/projects/152
 33) 👷🏼‍♂️ Readability Score (Python) - https://hyperskill.org/projects/155
-34) 👷🏼‍♂️ University Admission Procedure (Python) - https://hyperskill.org/projects/163
+34) 🐱‍👤 [University Admission Procedure (Python)](https://github.com/syyynth/hyperskill/tree/main/python/0163%20-%20University%20Admission%20Procedure%20(Python)) - https://hyperskill.org/projects/163
 35) 👷🏼‍♂️ Duplicate File Handler (Python) - https://hyperskill.org/projects/176
 36) 👷🏼‍♂️ Linear Regression from Scratch - https://hyperskill.org/projects/195
 37) 👷🏼‍♂️ Properties of Compact Groups of Galaxies - https://hyperskill.org/projects/249
@@ -103,5 +106,6 @@ The solution contains code and the test file (all coding problems are omitted).
 87) 👷🏼‍♂️ Read Quality Control - https://hyperskill.org/projects/235
 88) 👷🏼‍♂️ Todo Api - https://hyperskill.org/projects/242
 89) 👷🏼‍♂️ Bike Shop - https://hyperskill.org/projects/266
+90) 👷🏼‍♂️ Cats and Dogs Classification with Pre-trained Neural Network - https://hyperskill.org/projects/340
 
-01.08.2023 the expected date to complete 🙈
+01.09.2023 the expected date to complete 🙈
