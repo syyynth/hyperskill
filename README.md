@@ -3,10 +3,12 @@ This list is just a todo list. It's fetched and some projects may not be availab
 Don't cheat and don't copy solutions; it's useless, harmful and stupid. 🤦🏼‍♂️
 The provided code doesn't follow any strict style guidelines and the style of the project solely depends on the mood of the author. 🙈
 The solution contains code and the test file (all coding problems are omitted).
+
 ---
-👷🏼‍♂️ - in process,
-🐱‍👤 - finished
+👷🏼‍♂️ - in process [88],
+🐱‍👤 - finished [2]
 ---
+
 # Python
 ### EASY
 1) 🐱‍👤 [Hangman (Python)](https://github.com/syyynth/hyperskill/tree/main/python/0069%20-%20Hangman%20(Python)) - https://hyperskill.org/projects/69
