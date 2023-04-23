@@ -1,8 +1,9 @@
 The number of projects and their difficulty may change over time.
 This list is just a todo list. It's fetched and some projects may not be available to everyone (or just unavailable 😂).
 Don't cheat and don't copy solutions; it's useless, harmful and stupid. 🤦🏼‍♂️
-The provided code doesn't follow any strict style guidelines and the style of the project solely depends on the mood of the author. With 99% chance it's a script rather then OOP. 🙈
-The solution contains code for the last stage and the test file (all coding problems are omitted).
+The provided code doesn't follow any strict style guidelines and the style of the project solely depends on the mood of the author.
+The solution contains code (the last stage) for the last stage and the test file (all coding problems are omitted).
+All code is written using Python 3.11+
 
 ---
 
@@ -112,5 +113,3 @@ The solution contains code for the last stage and the test file (all coding prob
 88) 👷🏼‍♂️ Todo Api - https://hyperskill.org/projects/242
 89) 👷🏼‍♂️ Bike Shop - https://hyperskill.org/projects/266
 90) 👷🏼‍♂️ Cats and Dogs Classification with Pre-trained Neural Network - https://hyperskill.org/projects/340
-
-01.09.2023 the expected date to complete 🙈
