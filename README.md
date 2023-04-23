@@ -7,8 +7,8 @@ The solution contains code for the last stage and the test file (all coding prob
 ---
 
 🐍 Total: 90, 
-👷🏼‍♂️ In process: 88,
-🐱‍👤 Done: 2
+👷🏼‍♂️ In process: 75,
+🐱‍👤 Done: 15
 
 ---
 
@@ -18,10 +18,10 @@ The solution contains code for the last stage and the test file (all coding prob
 2) 🐱‍👤 [Loan Calculator](https://github.com/syyynth/hyperskill/tree/main/python/0090%20-%20Loan%20Calculator) - https://hyperskill.org/projects/90
 3) 🐱‍👤 [Simple Chatty Bot (Python)](https://github.com/syyynth/hyperskill/tree/main/python/0097%20-%20Simple%20Chatty%20Bot%20(Python)) - https://hyperskill.org/projects/97
 4) 🐱‍👤 [Zookeeper (Python)](https://github.com/syyynth/hyperskill/tree/main/python/0098%20-%20Zookeeper%20(Python)) - https://hyperskill.org/projects/98
-5) 👷🏼‍♂️ Generating Randomness - https://hyperskill.org/projects/156
+5) 🐱‍👤 [Generating Randomness](https://github.com/syyynth/hyperskill/tree/main/python/0156%20-%20Generating%20Randomness) - https://hyperskill.org/projects/156
 6) 🐱‍👤 [Bill Splitter](https://github.com/syyynth/hyperskill/tree/main/python/0175%20-%20Bill%20Splitter) - https://hyperskill.org/projects/175
 7) 🐱‍👤 [Last Pencil](https://github.com/syyynth/hyperskill/tree/main/python/0258%20-%20Last%20Pencil) - https://hyperskill.org/projects/258
-8) 👷🏼‍♂️ Gitman - https://hyperskill.org/projects/296
+8) 🐱‍👤 [Gitman](https://github.com/syyynth/hyperskill/tree/main/python/0296%20-%20Gitman) - https://hyperskill.org/projects/296
 
 ### MEDIUM
 9) 👷🏼‍♂️ Coffee Machine (Python) - https://hyperskill.org/projects/68
@@ -108,7 +108,7 @@ The solution contains code for the last stage and the test file (all coding prob
 84) 👷🏼‍♂️ Colorizer API - https://hyperskill.org/projects/169
 85) 👷🏼‍♂️ Regex Tester (Django) - https://hyperskill.org/projects/218
 86) 👷🏼‍♂️ A/B Test for Delivery App - https://hyperskill.org/projects/233
-87) 👷🏼‍♂️ Read Quality Control - https://hyperskill.org/projects/235
+87) 🐱‍👤 [Read Quality Control](https://github.com/syyynth/hyperskill/tree/main/python/0235%20-%20Read%20Quality%20Control) - https://hyperskill.org/projects/235
 88) 👷🏼‍♂️ Todo Api - https://hyperskill.org/projects/242
 89) 👷🏼‍♂️ Bike Shop - https://hyperskill.org/projects/266
 90) 👷🏼‍♂️ Cats and Dogs Classification with Pre-trained Neural Network - https://hyperskill.org/projects/340
