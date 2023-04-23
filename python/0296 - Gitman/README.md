@@ -1,0 +1,1 @@
+We tend to write our code in plain files on our laptops. However, this approach doesn't work if you want to encourage your colleagues to help you with development. Let's learn how to use the popular version control system git, which allows us to work simultaneously on different tasks with code repositories.
