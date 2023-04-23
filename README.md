@@ -15,12 +15,12 @@ The solution contains code for the last stage and the test file (all coding prob
 # Python
 ### EASY
 1) 🐱‍👤 [Hangman (Python)](https://github.com/syyynth/hyperskill/tree/main/python/0069%20-%20Hangman%20(Python)) - https://hyperskill.org/projects/69
-2) 👷🏼‍♂️ Loan Calculator - https://hyperskill.org/projects/90
-3) 👷🏼‍♂️ Simple Chatty Bot (Python) - https://hyperskill.org/projects/97
-4) 👷🏼‍♂️ Zookeeper (Python) - https://hyperskill.org/projects/98
+2) 🐱‍👤 [Loan Calculator](https://github.com/syyynth/hyperskill/tree/main/python/0090%20-%20Loan%20Calculator) - https://hyperskill.org/projects/90
+3) 🐱‍👤 [Simple Chatty Bot (Python)](https://github.com/syyynth/hyperskill/tree/main/python/0097%20-%20Simple%20Chatty%20Bot%20(Python)) - https://hyperskill.org/projects/97
+4) 🐱‍👤 [Zookeeper (Python)](https://github.com/syyynth/hyperskill/tree/main/python/0098%20-%20Zookeeper%20(Python)) - https://hyperskill.org/projects/98
 5) 👷🏼‍♂️ Generating Randomness - https://hyperskill.org/projects/156
-6) 👷🏼‍♂️ Bill Splitter - https://hyperskill.org/projects/175
-7) 👷🏼‍♂️ Last Pencil - https://hyperskill.org/projects/258
+6) 🐱‍👤 [Bill Splitter](https://github.com/syyynth/hyperskill/tree/main/python/0175%20-%20Bill%20Splitter) - https://hyperskill.org/projects/175
+7) 🐱‍👤 [Last Pencil](https://github.com/syyynth/hyperskill/tree/main/python/0258%20-%20Last%20Pencil) - https://hyperskill.org/projects/258
 8) 👷🏼‍♂️ Gitman - https://hyperskill.org/projects/296
 
 ### MEDIUM
@@ -30,10 +30,10 @@ The solution contains code for the last stage and the test file (all coding prob
 12) 👷🏼‍♂️ Knight's Tour Puzzle - https://hyperskill.org/projects/141
 13) 👷🏼‍♂️ Web Scraper - https://hyperskill.org/projects/145
 14) 👷🏼‍♂️ Dominoes - https://hyperskill.org/projects/146
-15) 👷🏼‍♂️ Currency Converter - https://hyperskill.org/projects/157
+15) 🐱‍👤 [Currency Converter](https://github.com/syyynth/hyperskill/tree/main/python/0157%20-%20Currency%20Converter) - https://hyperskill.org/projects/157
 16) 👷🏼‍♂️ Markdown Editor - https://hyperskill.org/projects/162
 17) 👷🏼‍♂️ Arithmetic Exam Application - https://hyperskill.org/projects/173
-18) 👷🏼‍♂️ Honest Calculator - https://hyperskill.org/projects/208
+18) 🐱‍👤 [Honest Calculator](https://github.com/syyynth/hyperskill/tree/main/python/0208%20-%20Honest%20Calculator) - https://hyperskill.org/projects/208
 19) 👷🏼‍♂️ Create Glowing Bacteria - https://hyperskill.org/projects/209
 20) 👷🏼‍♂️ K-Means Clustering from Scratch - https://hyperskill.org/projects/286
 21) 👷🏼‍♂️ Learning Progress Tracker (Python) - https://hyperskill.org/projects/326
@@ -46,7 +46,7 @@ The solution contains code for the last stage and the test file (all coding prob
 26) 👷🏼‍♂️ Simple Banking System (Python) - https://hyperskill.org/projects/109
 27) 👷🏼‍♂️ Regex Engine (Python) - https://hyperskill.org/projects/114
 28) 👷🏼‍♂️ Easy Rider Bus Company - https://hyperskill.org/projects/128
-29) 👷🏼‍♂️ Text Generator - https://hyperskill.org/projects/134
+29) 🐱‍👤 [Text Generator](https://github.com/syyynth/hyperskill/tree/main/python/0134%20-%20Text%20Generator) - https://hyperskill.org/projects/134
 30) 👷🏼‍♂️ Duskers - https://hyperskill.org/projects/136
 31) 👷🏼‍♂️ Tetris - https://hyperskill.org/projects/147
 32) 👷🏼‍♂️ Data Analysis for Hospitals - https://hyperskill.org/projects/152
@@ -78,7 +78,7 @@ The solution contains code for the last stage and the test file (all coding prob
 56) 👷🏼‍♂️ Convoy Shipping Company - https://hyperskill.org/projects/151
 57) 👷🏼‍♂️ Memorization Tool - https://hyperskill.org/projects/159
 58) 👷🏼‍♂️ Weather App - https://hyperskill.org/projects/164
-59) 👷🏼‍♂️ Key Terms Extraction - https://hyperskill.org/projects/166
+59) 🐱‍👤 [Key Terms Extraction](https://github.com/syyynth/hyperskill/tree/main/python/0166%20-%20Key%20Terms%20Extraction) - https://hyperskill.org/projects/166
 60) 👷🏼‍♂️ Food Blog Backend - https://hyperskill.org/projects/167
 61) 👷🏼‍♂️ Web Calendar - https://hyperskill.org/projects/170
 62) 👷🏼‍♂️ HyperForms - https://hyperskill.org/projects/172
@@ -96,7 +96,7 @@ The solution contains code for the last stage and the test file (all coding prob
 74) 👷🏼‍♂️ Corpus Annotation from Scratch - https://hyperskill.org/projects/317
 75) 👷🏼‍♂️ Jeopardy! Question Answering Bot - https://hyperskill.org/projects/324
 76) 👷🏼‍♂️ Movie Database API - https://hyperskill.org/projects/325
-77) 👷🏼‍♂️ Spell Checker - https://hyperskill.org/projects/334
+77) 🐱‍👤 [Spell Checker](https://github.com/syyynth/hyperskill/tree/main/python/0334%20-%20Spell%20Checker) - https://hyperskill.org/projects/334
 78) 👷🏼‍♂️ Above the Rim API - https://hyperskill.org/projects/336
 
 ### N/D
