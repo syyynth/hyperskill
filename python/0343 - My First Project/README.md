@@ -1,0 +1,1 @@
+You are an owner of a new small corner shop. You are doing well and want to determine how much you earned in the first month. Create a simple tool that will calculate your net income!
