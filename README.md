@@ -7,9 +7,7 @@ All code is written using Python 3.11+
 
 ---
 
-🐍 Total: 91, 
-🏼‍♂️ In process: 74,
-🐱‍👤 Done: 17
+🐍 Total: 91, 👷🏼‍♂️ In process: 74, 🐱‍👤 Done: 17
 
 ---
 
