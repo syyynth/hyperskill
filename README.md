@@ -7,9 +7,9 @@ All code is written using Python 3.11+
 
 ---
 
-🐍 Total: 91,
-👷🏼‍♂️ In process: 75,
-🐱‍👤 Done: 16
+🐍 Total: 91, 
+🏼‍♂️ In process: 74,
+🐱‍👤 Done: 17
 
 ---
 
@@ -33,80 +33,80 @@ All code is written using Python 3.11+
 14) 👷🏼‍♂️ Markdown Editor - https://hyperskill.org/projects/162
 15) 👷🏼‍♂️ Arithmetic Exam Application - https://hyperskill.org/projects/173
 16) 🐱‍👤 [Honest Calculator](https://github.com/syyynth/hyperskill/tree/main/python/0208%20-%20Honest%20Calculator) - https://hyperskill.org/projects/208
-17) 👷🏼‍♂️ Create Glowing Bacteria - https://hyperskill.org/projects/209
-18) 🐱‍👤 [Last Pencil](https://github.com/syyynth/hyperskill/tree/main/python/0258%20-%20Last%20Pencil) - https://hyperskill.org/projects/258
-19) 👷🏼‍♂️ K-Means Clustering from Scratch - https://hyperskill.org/projects/286
+17) 🐱‍👤 [Last Pencil](https://github.com/syyynth/hyperskill/tree/main/python/0258%20-%20Last%20Pencil) - https://hyperskill.org/projects/258
+18) 👷🏼‍♂️ K-Means Clustering from Scratch - https://hyperskill.org/projects/286
 
 ### HARD
-20) 👷🏼‍♂️ Text-Based Browser - https://hyperskill.org/projects/79
-21) 👷🏼‍♂️ Tic-Tac-Toe with AI (Python) - https://hyperskill.org/projects/82
-22) 👷🏼‍♂️ Numeric Matrix Processor (Python) - https://hyperskill.org/projects/96
-23) 👷🏼‍♂️ Multilingual Online Translator - https://hyperskill.org/projects/99
-24) 👷🏼‍♂️ Simple Banking System (Python) - https://hyperskill.org/projects/109
-25) 👷🏼‍♂️ Regex Engine (Python) - https://hyperskill.org/projects/114
-26) 👷🏼‍♂️ Easy Rider Bus Company - https://hyperskill.org/projects/128
-27) 🐱‍👤 [Text Generator](https://github.com/syyynth/hyperskill/tree/main/python/0134%20-%20Text%20Generator) - https://hyperskill.org/projects/134
-28) 👷🏼‍♂️ Duskers - https://hyperskill.org/projects/136
-29) 👷🏼‍♂️ Knight's Tour Puzzle - https://hyperskill.org/projects/141
-30) 👷🏼‍♂️ Web Scraper - https://hyperskill.org/projects/145
-31) 👷🏼‍♂️ Tetris - https://hyperskill.org/projects/147
-32) 👷🏼‍♂️ Data Analysis for Hospitals - https://hyperskill.org/projects/152
-33) 👷🏼‍♂️ Readability Score (Python) - https://hyperskill.org/projects/155
-34) 🐱‍👤 [University Admission Procedure (Python)](https://github.com/syyynth/hyperskill/tree/main/python/0163%20-%20University%20Admission%20Procedure%20(Python)) - https://hyperskill.org/projects/163
-35) 👷🏼‍♂️ Duplicate File Handler (Python) - https://hyperskill.org/projects/176
-36) 👷🏼‍♂️ Linear Regression from Scratch - https://hyperskill.org/projects/195
-37) 👷🏼‍♂️ Properties of Compact Groups of Galaxies - https://hyperskill.org/projects/249
-38) 👷🏼‍♂️ Decision Tree from Scratch - https://hyperskill.org/projects/259
-39) 👷🏼‍♂️ HR Data Analysis - https://hyperskill.org/projects/268
-40) 👷🏼‍♂️ NBA Data Preprocessing - https://hyperskill.org/projects/285
-41) 👷🏼‍♂️ Salary Prediction - https://hyperskill.org/projects/287
-42) 👷🏼‍♂️ Nobel Laureates - https://hyperskill.org/projects/302
-43) 👷🏼‍♂️ Learning Progress Tracker (Python) - https://hyperskill.org/projects/326
-44) 👷🏼‍♂️ Marathon Runners - https://hyperskill.org/projects/331
+19) 👷🏼‍♂️ Text-Based Browser - https://hyperskill.org/projects/79
+20) 👷🏼‍♂️ Tic-Tac-Toe with AI (Python) - https://hyperskill.org/projects/82
+21) 👷🏼‍♂️ Numeric Matrix Processor (Python) - https://hyperskill.org/projects/96
+22) 👷🏼‍♂️ Multilingual Online Translator - https://hyperskill.org/projects/99
+23) 👷🏼‍♂️ Simple Banking System (Python) - https://hyperskill.org/projects/109
+24) 👷🏼‍♂️ Regex Engine (Python) - https://hyperskill.org/projects/114
+25) 👷🏼‍♂️ Easy Rider Bus Company - https://hyperskill.org/projects/128
+26) 🐱‍👤 [Text Generator](https://github.com/syyynth/hyperskill/tree/main/python/0134%20-%20Text%20Generator) - https://hyperskill.org/projects/134
+27) 👷🏼‍♂️ Duskers - https://hyperskill.org/projects/136
+28) 👷🏼‍♂️ Knight's Tour Puzzle - https://hyperskill.org/projects/141
+29) 👷🏼‍♂️ Web Scraper - https://hyperskill.org/projects/145
+30) 👷🏼‍♂️ Tetris - https://hyperskill.org/projects/147
+31) 👷🏼‍♂️ Data Analysis for Hospitals - https://hyperskill.org/projects/152
+32) 👷🏼‍♂️ Readability Score (Python) - https://hyperskill.org/projects/155
+33) 🐱‍👤 [University Admission Procedure (Python)](https://github.com/syyynth/hyperskill/tree/main/python/0163%20-%20University%20Admission%20Procedure%20(Python)) - https://hyperskill.org/projects/163
+34) 👷🏼‍♂️ Duplicate File Handler (Python) - https://hyperskill.org/projects/176
+35) 👷🏼‍♂️ Linear Regression from Scratch - https://hyperskill.org/projects/195
+36) 👷🏼‍♂️ Properties of Compact Groups of Galaxies - https://hyperskill.org/projects/249
+37) 👷🏼‍♂️ Decision Tree from Scratch - https://hyperskill.org/projects/259
+38) 👷🏼‍♂️ HR Data Analysis - https://hyperskill.org/projects/268
+39) 👷🏼‍♂️ NBA Data Preprocessing - https://hyperskill.org/projects/285
+40) 👷🏼‍♂️ Salary Prediction - https://hyperskill.org/projects/287
+41) 👷🏼‍♂️ Nobel Laureates - https://hyperskill.org/projects/302
+42) 👷🏼‍♂️ Learning Progress Tracker (Python) - https://hyperskill.org/projects/326
+43) 👷🏼‍♂️ Marathon Runners - https://hyperskill.org/projects/331
 
 ### NIGHTMARE
-45) 👷🏼‍♂️ Smart Calculator (Python) - https://hyperskill.org/projects/74
-46) 👷🏼‍♂️ Password Hacker (Python) - https://hyperskill.org/projects/80
-47) 👷🏼‍♂️ PageRank (Python) - https://hyperskill.org/projects/92
-48) 👷🏼‍♂️ HyperJob Agency - https://hyperskill.org/projects/94
-49) 👷🏼‍♂️ HyperNews Portal - https://hyperskill.org/projects/102
-50) 👷🏼‍♂️ To-Do List (Python) - https://hyperskill.org/projects/105
-51) 👷🏼‍♂️ Static Code Analyzer - https://hyperskill.org/projects/112
-52) 👷🏼‍♂️ Simple Text Summarization - https://hyperskill.org/projects/124
-53) 👷🏼‍♂️ Flashcards (Python) - https://hyperskill.org/projects/127
-54) 👷🏼‍♂️ Convoy Shipping Company - https://hyperskill.org/projects/151
-55) 👷🏼‍♂️ Memorization Tool - https://hyperskill.org/projects/159
-56) 👷🏼‍♂️ Weather App - https://hyperskill.org/projects/164
-57) 🐱‍👤 [Key Terms Extraction](https://github.com/syyynth/hyperskill/tree/main/python/0166%20-%20Key%20Terms%20Extraction) - https://hyperskill.org/projects/166
-58) 👷🏼‍♂️ Food Blog Backend - https://hyperskill.org/projects/167
-59) 👷🏼‍♂️ Web Calendar - https://hyperskill.org/projects/170
-60) 👷🏼‍♂️ HyperForms - https://hyperskill.org/projects/172
-61) 👷🏼‍♂️ Spam Filter - https://hyperskill.org/projects/185
-62) 👷🏼‍♂️ Classification of Handwritten Digits - https://hyperskill.org/projects/205
-63) 👷🏼‍♂️ Algorithms with IMDB - https://hyperskill.org/projects/213
-64) 👷🏼‍♂️ Recipe Builder API - https://hyperskill.org/projects/215
-65) 👷🏼‍♂️ Opinion Detector - https://hyperskill.org/projects/216
-66) 👷🏼‍♂️ Logistic Regression from Scratch - https://hyperskill.org/projects/219
-67) 👷🏼‍♂️ Regex Tester (Flask) - https://hyperskill.org/projects/247
-68) 👷🏼‍♂️ Neural Network from Scratch - https://hyperskill.org/projects/250
-69) 👷🏼‍♂️ HyperSchool - https://hyperskill.org/projects/255
-70) 👷🏼‍♂️ Calculator for Investors - https://hyperskill.org/projects/264
-71) 👷🏼‍♂️ Movie Quality Predictor - https://hyperskill.org/projects/273
-72) 👷🏼‍♂️ Maze Runner (Python) - https://hyperskill.org/projects/305
-73) 👷🏼‍♂️ Sorting Tool (Python) - https://hyperskill.org/projects/307
-74) 👷🏼‍♂️ Corpus Annotation from Scratch - https://hyperskill.org/projects/317
-75) 👷🏼‍♂️ Jeopardy! Question Answering Bot - https://hyperskill.org/projects/324
-76) 👷🏼‍♂️ Movie Database API - https://hyperskill.org/projects/325
-77) 🐱‍👤 [Spell Checker](https://github.com/syyynth/hyperskill/tree/main/python/0334%20-%20Spell%20Checker) - https://hyperskill.org/projects/334
-78) 👷🏼‍♂️ Above the Rim API - https://hyperskill.org/projects/336
+44) 👷🏼‍♂️ Smart Calculator (Python) - https://hyperskill.org/projects/74
+45) 👷🏼‍♂️ Password Hacker (Python) - https://hyperskill.org/projects/80
+46) 👷🏼‍♂️ PageRank (Python) - https://hyperskill.org/projects/92
+47) 👷🏼‍♂️ HyperJob Agency - https://hyperskill.org/projects/94
+48) 👷🏼‍♂️ HyperNews Portal - https://hyperskill.org/projects/102
+49) 👷🏼‍♂️ To-Do List (Python) - https://hyperskill.org/projects/105
+50) 👷🏼‍♂️ Static Code Analyzer - https://hyperskill.org/projects/112
+51) 👷🏼‍♂️ Simple Text Summarization - https://hyperskill.org/projects/124
+52) 👷🏼‍♂️ Flashcards (Python) - https://hyperskill.org/projects/127
+53) 👷🏼‍♂️ Convoy Shipping Company - https://hyperskill.org/projects/151
+54) 👷🏼‍♂️ Memorization Tool - https://hyperskill.org/projects/159
+55) 👷🏼‍♂️ Weather App - https://hyperskill.org/projects/164
+56) 🐱‍👤 [Key Terms Extraction](https://github.com/syyynth/hyperskill/tree/main/python/0166%20-%20Key%20Terms%20Extraction) - https://hyperskill.org/projects/166
+57) 👷🏼‍♂️ Food Blog Backend - https://hyperskill.org/projects/167
+58) 👷🏼‍♂️ Web Calendar - https://hyperskill.org/projects/170
+59) 👷🏼‍♂️ HyperForms - https://hyperskill.org/projects/172
+60) 👷🏼‍♂️ Spam Filter - https://hyperskill.org/projects/185
+61) 👷🏼‍♂️ Classification of Handwritten Digits - https://hyperskill.org/projects/205
+62) 👷🏼‍♂️ Algorithms with IMDB - https://hyperskill.org/projects/213
+63) 👷🏼‍♂️ Recipe Builder API - https://hyperskill.org/projects/215
+64) 👷🏼‍♂️ Opinion Detector - https://hyperskill.org/projects/216
+65) 👷🏼‍♂️ Logistic Regression from Scratch - https://hyperskill.org/projects/219
+66) 👷🏼‍♂️ Regex Tester (Flask) - https://hyperskill.org/projects/247
+67) 👷🏼‍♂️ Neural Network from Scratch - https://hyperskill.org/projects/250
+68) 👷🏼‍♂️ HyperSchool - https://hyperskill.org/projects/255
+69) 👷🏼‍♂️ Calculator for Investors - https://hyperskill.org/projects/264
+70) 👷🏼‍♂️ Movie Quality Predictor - https://hyperskill.org/projects/273
+71) 👷🏼‍♂️ Maze Runner (Python) - https://hyperskill.org/projects/305
+72) 👷🏼‍♂️ Sorting Tool (Python) - https://hyperskill.org/projects/307
+73) 🐱‍👤 [Corpus Annotation from Scratch](https://github.com/syyynth/hyperskill/tree/main/python/0317%20-%20Corpus%20Annotation%20from%20Scratch) - https://hyperskill.org/projects/317
+74) 👷🏼‍♂️ Jeopardy! Question Answering Bot - https://hyperskill.org/projects/324
+75) 👷🏼‍♂️ Movie Database API - https://hyperskill.org/projects/325
+76) 🐱‍👤 [Spell Checker](https://github.com/syyynth/hyperskill/tree/main/python/0334%20-%20Spell%20Checker) - https://hyperskill.org/projects/334
+77) 👷🏼‍♂️ Above the Rim API - https://hyperskill.org/projects/336
 
 ### N/D
-79) 👷🏼‍♂️ Hypercar Service Center - https://hyperskill.org/projects/85
-80) 👷🏼‍♂️ HyperTube - https://hyperskill.org/projects/131
-81) 👷🏼‍♂️ Robogotchi - https://hyperskill.org/projects/135
-82) 👷🏼‍♂️ Linear Equations Solver (Python) - https://hyperskill.org/projects/144
-83) 👷🏼‍♂️ Text Based Adventure Game - https://hyperskill.org/projects/161
-84) 👷🏼‍♂️ Colorizer API - https://hyperskill.org/projects/169
+78) 👷🏼‍♂️ Hypercar Service Center - https://hyperskill.org/projects/85
+79) 👷🏼‍♂️ HyperTube - https://hyperskill.org/projects/131
+80) 👷🏼‍♂️ Robogotchi - https://hyperskill.org/projects/135
+81) 👷🏼‍♂️ Linear Equations Solver (Python) - https://hyperskill.org/projects/144
+82) 👷🏼‍♂️ Text Based Adventure Game - https://hyperskill.org/projects/161
+83) 👷🏼‍♂️ Colorizer API - https://hyperskill.org/projects/169
+84) 👷🏼‍♂️ Create Glowing Bacteria - https://hyperskill.org/projects/209
 85) 👷🏼‍♂️ Regex Tester (Django) - https://hyperskill.org/projects/218
 86) 👷🏼‍♂️ A/B Test for Delivery App - https://hyperskill.org/projects/233
 87) 🐱‍👤 [Read Quality Control](https://github.com/syyynth/hyperskill/tree/main/python/0235%20-%20Read%20Quality%20Control) - https://hyperskill.org/projects/235
