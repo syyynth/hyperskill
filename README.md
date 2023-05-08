@@ -7,7 +7,7 @@ All code is written using Python 3.11+
 
 ---
 
-🐍 Total: 91, 👷🏼‍♂️ In process: 74, 🐱‍👤 Done: 17
+🐍 Total: 93, 👷🏼‍♂️ In process: 74, 🐱‍👤 Done: 19
 
 ---
 
@@ -21,7 +21,7 @@ All code is written using Python 3.11+
 6) 🐱‍👤 [My First Project](https://github.com/syyynth/hyperskill/tree/main/python/0343%20-%20My%20First%20Project) - https://hyperskill.org/projects/343
 
 ### MEDIUM
-7) 👷🏼‍♂️ Coffee Machine (Python) - https://hyperskill.org/projects/68
+7) 🐱‍👤 [Coffee Machine (Python)](https://github.com/syyynth/hyperskill/tree/main/python/0068%20-%20Coffee%20Machine%20(Python)) - https://hyperskill.org/projects/68
 8) 🐱‍👤 [Hangman (Python)](https://github.com/syyynth/hyperskill/tree/main/python/0069%20-%20Hangman%20(Python)) - https://hyperskill.org/projects/69
 9) 👷🏼‍♂️ Simple Tic-Tac-Toe (Python) - https://hyperskill.org/projects/73
 10) 👷🏼‍♂️ Rock-Paper-Scissors (Python) - https://hyperskill.org/projects/78
@@ -69,7 +69,7 @@ All code is written using Python 3.11+
 48) 👷🏼‍♂️ HyperNews Portal - https://hyperskill.org/projects/102
 49) 👷🏼‍♂️ To-Do List (Python) - https://hyperskill.org/projects/105
 50) 👷🏼‍♂️ Static Code Analyzer - https://hyperskill.org/projects/112
-51) 👷🏼‍♂️ Simple Text Summarization - https://hyperskill.org/projects/124
+51) 🐱‍👤 [Simple Text Summarization](https://github.com/syyynth/hyperskill/tree/main/python/0124%20-%20Simple%20Text%20Summarization) - https://hyperskill.org/projects/124
 52) 👷🏼‍♂️ Flashcards (Python) - https://hyperskill.org/projects/127
 53) 👷🏼‍♂️ Convoy Shipping Company - https://hyperskill.org/projects/151
 54) 👷🏼‍♂️ Memorization Tool - https://hyperskill.org/projects/159
@@ -112,3 +112,5 @@ All code is written using Python 3.11+
 89) 👷🏼‍♂️ Bike Shop - https://hyperskill.org/projects/266
 90) 👷🏼‍♂️ ELISA - https://hyperskill.org/projects/283
 91) 👷🏼‍♂️ Cats and Dogs Classification with Pre-trained Neural Network - https://hyperskill.org/projects/340
+92) 👷🏼‍♂️ Run Docker Run - https://hyperskill.org/projects/346
+93) 👷🏼‍♂️ Barbershop Simulation - https://hyperskill.org/projects/348
