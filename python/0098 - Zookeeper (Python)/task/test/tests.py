@@ -15,7 +15,7 @@ animal_index = {
     '5': (rabbit, 'rabbit')
 }
 
-the_end_message = 'See you later!'
+the_end_message = 'See you later'
 
 
 class Zookeeper(StageTest):
