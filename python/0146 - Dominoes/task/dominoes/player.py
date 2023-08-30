@@ -33,7 +33,6 @@ class Player:
         try:
             return self.dominos.index(domino)
         except ValueError:
-            # Use a more specific exception type and message
             raise ValueError(f'Domino {domino} is not in the stack!')
 
     def size(self) -> int:

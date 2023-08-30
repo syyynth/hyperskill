@@ -1,0 +1,4 @@
+https://github.com/hyperskill/hs-test-python/archive/release.tar.gz
+beautifulsoup4==4.9.3
+furl==2.1.0
+requests==2.24.0
