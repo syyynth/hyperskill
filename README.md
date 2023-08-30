@@ -8,7 +8,7 @@ All code is written using Python 3.11+
 ---
 
 # PYTHON
-🐍 Total: 101, 👷🏼‍♂️ In process: 73, 🐱‍👤 Done: 28
+🐍 Total: 102, 👷🏼‍♂️ In process: 72, 🐱‍👤 Done: 30
 
 ---
 
@@ -58,14 +58,14 @@ All code is written using Python 3.11+
 41) 👷🏼‍♂️ House Classification - https://hyperskill.org/projects/370
 
 ### HARD
-42) 👷🏼‍♂️ Text-Based Browser - https://hyperskill.org/projects/79
+42) 🐱‍👤 [Text-Based Browser](https://github.com/syyynth/hyperskill/tree/main/python/0079%20-%20Text-Based%20Browser) - https://hyperskill.org/projects/79
 43) 👷🏼‍♂️ Multilingual Online Translator - https://hyperskill.org/projects/99
 44) 👷🏼‍♂️ Simple Banking System (Python) - https://hyperskill.org/projects/109
 45) 🐱‍👤 [Simple Text Summarization](https://github.com/syyynth/hyperskill/tree/main/python/0124%20-%20Simple%20Text%20Summarization) - https://hyperskill.org/projects/124
 46) 👷🏼‍♂️ Flashcards (Python) - https://hyperskill.org/projects/127
 47) 👷🏼‍♂️ Easy Rider Bus Company - https://hyperskill.org/projects/128
 48) 👷🏼‍♂️ Linear Equations Solver (Python) - https://hyperskill.org/projects/144
-49) 👷🏼‍♂️ Web Scraper - https://hyperskill.org/projects/145
+49) 🐱‍👤 [Web Scraper](https://github.com/syyynth/hyperskill/tree/main/python/0145%20-%20Web%20Scraper) - https://hyperskill.org/projects/145
 50) 🐱‍👤 [Key Terms Extraction](https://github.com/syyynth/hyperskill/tree/main/python/0166%20-%20Key%20Terms%20Extraction) - https://hyperskill.org/projects/166
 51) 👷🏼‍♂️ Duplicate File Handler (Python) - https://hyperskill.org/projects/176
 52) 👷🏼‍♂️ Classification of Handwritten Digits - https://hyperskill.org/projects/205
@@ -122,6 +122,7 @@ All code is written using Python 3.11+
 99) 👷🏼‍♂️ To-do List API - https://hyperskill.org/projects/242
 100) 👷🏼‍♂️ Barbershop Simulation - https://hyperskill.org/projects/348
 101) 👷🏼‍♂️ HyperNetwork - https://hyperskill.org/projects/373
+102) 👷🏼‍♂️ Tagger - https://hyperskill.org/projects/377
 
 ---
 ### Math/ML/etc, text-based projects
