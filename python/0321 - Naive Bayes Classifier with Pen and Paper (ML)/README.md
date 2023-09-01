@@ -1,4 +1,4 @@
-This project doesn't have any code (text based answers), it's just an indication of accomplishement.
+This project doesn't have any code (text based answers), it's just an indication of accomplishment.
 
 This is the *Naive Bayes Classifier with Pen and Paper* project.
 
