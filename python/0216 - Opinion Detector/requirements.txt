@@ -1,0 +1,6 @@
+numpy
+nltk
+pandas
+matplotlib
+scikit-learn
+https://github.com/hyperskill/hs-test-python/archive/release.tar.gz
