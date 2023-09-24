@@ -1,4 +1,4 @@
-Here is the last 10 and the first 10 elements for the first state in the answer:
+Here is the last 10 and the first 10 elements for the first stage in the answer:
 stage
 1. Computer programming
 2. Paradigms
