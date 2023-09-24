@@ -1,0 +1,23 @@
+Here is the last 10 and the first 10 elements for the first state in the answer:
+stage
+1. Computer programming
+2. Paradigms
+3. Introduction to Java
+4. Basic literals in Java
+5. Overview of the basic program in Java
+6. Printing data in Java
+7. Types and variables in Java
+8. Comments in your code in Java
+9. Scanning the input in Java
+10. Coding style conventions in Java
+...
+88. JVM, JRE, and JDK
+89. IDE
+90. What is a bug
+91. Running programs on your computer in Java
+92. Hashing: overview in Algorithms
+93. Hash function in Algorithms
+94. Hash table in Algorithms
+95. Introduction to logging
+96. Debugging techniques in Java
+97. IntelliJ IDEA
