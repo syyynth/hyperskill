@@ -1,0 +1,8 @@
+MSG_UNKNOWN_COMMAND = 'Unknown command'
+MSG_UNKNOWN_VARIABLE = 'Unknown variable'
+MSG_HELP = 'The program calculates stuff'
+MSG_INVALID = 'Invalid expression'
+MSG_INVALID_IDENT = 'Invalid identifier'
+MSG_INVALID_ASSIGNMENT = 'Invalid assignment'
+MSG_BYE = 'Bye!'
+MSG_EXIT = 'exit'
