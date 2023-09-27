@@ -1,77 +1,89 @@
 import argparse
 import math
+from typing import Any
 
-args = argparse.ArgumentParser(
+from commands import AnnuityPeriodCommand, AnnuityPaymentCommand, AnnuityPrincipalCommand, \
+    DifferentiatedPaymentsCommand
+
+parser = argparse.ArgumentParser(
     description='Loan Calculator',
     allow_abbrev=False
 )
-args.add_argument('--type', choices=['annuity', 'diff'])
-args.add_argument('--payment', type=float)
-args.add_argument('--principal', type=float)
-args.add_argument('--interest', type=float)
-args.add_argument('--periods', type=float)
-
-commands = args.parse_args()
-payment = commands.payment
-principal = commands.principal
-interest = commands.interest
-periods = commands.periods
+parser.add_argument('--type', choices=['annuity', 'diff'])
+parser.add_argument('--payment', type=float)
+parser.add_argument('--principal', type=float)
+parser.add_argument('--interest', type=float)
+parser.add_argument('--periods', type=float)
 
 
-def fmonths(months):
-    y, m = divmod(months, 12)
-    out = ''
-    if y:
-        out += f'{y} year{(y > 1) * "s"}'
-    if m:
-        out += f' and {m} month{(m > 1) * "s"}'
-    return out
+class LoanCalculator:
+    def __init__(self,
+                 principal=None,
+                 interest=None,
+                 periods=None,
+                 payment=None) -> None:
+        self.payment = payment
+        self.principal = principal
+        self.interest = interest
+        self.periods = periods
+        self.monthly_interest = self.interest / 1200 if self.interest else None
 
-
-def get_months(lp, mp, li):
-    months = math.log(mp / (mp - li / 1200 * lp), 1 + li / 1200)
-    print(f'It will take {fmonths(math.ceil(months))} to repay loan!')
-    print(f'Overpayment = {mp * math.ceil(months) - lp}')
-
-
-def get_monthly_payment(lp, np, li):
-    tmp = (1 + li / 1200) ** np
-    mp = math.ceil(lp * ((li / 1200 * tmp) / (tmp - 1)))
-    print(f'Your monthly payment = {mp}!')
-
-def get_loan_principal(ap, np, li):
-    tmp = (1 + li / 1200) ** np
-    lp = ap / (li / 1200 * tmp / (tmp - 1))
-
-    print(f'Your loan principal = {math.ceil(lp)}!')
-
-
-def get_diff_payment():
-    total = 0
-    for n in range(1, int(periods) + 1):
-        di = math.ceil(
-            principal / periods + (interest / 1200) * (principal - principal * (n - 1) / periods)
+    def calc_periods(self) -> None:
+        self.periods = math.ceil(
+            math.log(self.payment / (self.payment - self.monthly_interest * self.principal),
+                     1 + self.monthly_interest)
         )
-        total += di
-        print(f'Month {n}: payment is {di}')
-    print(f'Overpayment = {total - principal}')
+
+    def _annuity_coefficient(self) -> float:
+        return (self.monthly_interest * (1 + self.monthly_interest) ** self.periods /
+                ((1 + self.monthly_interest) ** self.periods - 1))
+
+    def calc_payment(self) -> None:
+        self.payment = math.ceil(self.principal * self._annuity_coefficient())
+
+    def calc_principle(self) -> None:
+        self.principal = math.floor(self.payment / self._annuity_coefficient())
+
+    @staticmethod
+    def format_months(months: int) -> str:
+        years, months = divmod(months, 12)
+
+        years_output = f'{years} year{"s" if years > 1 else ""}' if years else ''
+        months_output = f'{months} month{"s" if months > 1 else ""}' if months else ''
+
+        return ' and '.join(filter(None, (years_output, months_output)))
+
+    def calc_payments(self) -> list[int]:
+        return [
+            math.ceil(self.principal / self.periods + self.monthly_interest *
+                      (self.principal - self.principal * (n - 1) / self.periods))
+            for n in range(1, int(self.periods) + 1)
+        ]
 
 
-if commands.type == 'annuity':
-    if payment and principal and interest and periods:
-        print('Incorrect parameters')
-    elif principal and payment and interest:
-        get_months(principal, payment, interest)
-    elif principal and periods and interest:
-        get_monthly_payment(principal, periods, interest)
-    elif payment and periods and interest:
-        get_loan_principal(payment, periods, interest)
-    else:
-        print('Incorrect parameters')
-elif commands.type == 'diff':
-    if principal and periods and interest:
-        get_diff_payment()
-    else:
-        print('Incorrect parameters')
-else:
-    print('Incorrect parameters')
+def get_command(calculator, commands) -> Any:
+    if commands.type == 'annuity':
+        if calculator.principal and calculator.payment and calculator.interest:
+            return AnnuityPeriodCommand(calculator)
+        elif calculator.principal and calculator.periods and calculator.interest:
+            return AnnuityPaymentCommand(calculator)
+        elif calculator.payment and calculator.periods and calculator.interest:
+            return AnnuityPrincipalCommand(calculator)
+    elif commands.type == 'diff' and calculator.principal and calculator.periods and calculator.interest:
+        return DifferentiatedPaymentsCommand(calculator)
+
+
+def main() -> None:
+    args = parser.parse_args()
+
+    lc = LoanCalculator(args.principal,
+                        args.interest,
+                        args.periods,
+                        args.payment)
+
+    command = get_command(lc, args)
+    command and command.execute() or print('Incorrect parameters')
+
+
+if __name__ == '__main__':
+    main()
