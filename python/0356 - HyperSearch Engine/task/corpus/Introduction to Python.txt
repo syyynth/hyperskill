@@ -1,0 +1,4 @@
+Like other programming languages, Python has gone through several versions. Python 1.0 was released in 1994 and laid the basic principles of the language, emphasizing simplicity.
+Python 2.0 was released in 2000. This version became very popular among programmers. Several subversions of Python 2, such as 2.6 and 2.7, are still used in various projects and libraries. These versions of Python are also denoted by 2.x, where the symbol x means any subversion of Python 2.
+The next major version, Python 3.0, was released in 2008. It broke backward compatibility with its predecessors to rid the language of historic clutter and make Python more readable and consistent.
+Today, these similar but incompatible versions of Python are commonly used. Knowing about the compatibility of Python versions will help you in the future. With this knowledge, you can easily read through older code and correct it to run without any mistakes in newer Python versions.

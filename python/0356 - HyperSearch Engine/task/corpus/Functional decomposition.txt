@@ -1,0 +1,4 @@
+Functional decomposition is simply a process of decomposing a problem into several functions or methods. Each method does a particular task so that we can perform these methods in a row to get the results we need. When we look at a problem, we need to think about which actions we may want to repeat multiple times or, alternatively, perform separately. This is how we get the desired methods. As a result, these methods are easier to read, understand, reuse, test, and debug. 
+Let's look at our Smart home app again and figure out which steps can be turned into separate methods. First of all, we can separate our main operations into three methods: one method to control the music, another one to turn the lights on and off, and the third to operate the door lock. Take a look at the method 
+controlMusic() that controls the music.
+

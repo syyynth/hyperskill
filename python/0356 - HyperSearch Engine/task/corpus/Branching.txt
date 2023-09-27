@@ -1,0 +1,1 @@
+Imagine that you want to write a function to get the absolute value: if integer argument x is negative, return -x, and otherwise, return the x itself. By definition, you will need something to separate the ways to get the result. The realization of such an approach in programming is called conditional execution, fork, or branching. Scala has the if else syntax for this process.

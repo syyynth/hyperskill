@@ -1,0 +1,4 @@
+OpenAI was the first transformer-based language model with fine-tuning. To be more precise, it uses only the transformer's decoder. It is uni-directional language modeling.
+Bidirectional Encoder Representations from Transformer (BERT) is bidirectional transformer-based masked language modeling. There are two default versions of this model: large and base. You can download the first on Hugging Face.
+Universal Language Model Fine-tuning for text classification (ULM-Fit) is another language model proposed in 2018. ULM-Fit first trains long memory (LM) on an enormous general domain corpus with a bidirectional long memory. Then, it tunes LM on target task data. In the end, it adjusts as a classifier on the target task.
+
