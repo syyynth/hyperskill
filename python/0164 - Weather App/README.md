@@ -8,5 +8,5 @@ Here's the link to the project: https://hyperskill.org/projects/164
 Check out my profile: https://hyperskill.org/profile/1254124
 
 <video width="320" height="240" controls>
-  <source src="demo.mkv" type="video/x-matroska">
+  <source src="demo.mp4" type="video/x-matroska">
 </video>
