@@ -6,3 +6,13 @@ This is the *Spam Filter* project I made myself.
 Here's the link to the project: https://hyperskill.org/projects/185
 
 Check out my profile: https://hyperskill.org/profile/1254124
+
+_Example:_
+```python
+{
+    'Accuracy': 0.9847533632286996,
+	'Recall': 0.9459459459459459,
+	'Precision': 0.9395973154362416,
+	'F1': 0.9427609427609427
+}
+```

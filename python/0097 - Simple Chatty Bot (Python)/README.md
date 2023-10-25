@@ -1,4 +1,11 @@
-Here, at the beginning of your programmer’s path, creating a simple console chat bot will do wonders to guide you through the basics of coding. During this journey you will also play some word and number games that you are going to implement all on your own. Pack up and let’s hit the road, my friend!
+This is the *Simple Chat Bot with Python* project I made myself.
+
+
+<p>Create a simple console chat bot from scratch that will communicate with you and perform basic arithmetic operations.</p><br/><br/>Learn more at <a href="https://hyperskill.org/projects/97?utm_source=ide&utm_medium=ide&utm_campaign=ide&utm_content=project-card">https://hyperskill.org/projects/97</a>
+
+Here's the link to the project: https://hyperskill.org/projects/97
+
+Check out my profile: https://hyperskill.org/profile/1254124
 
 ```python
 Hello! My name is Aid.

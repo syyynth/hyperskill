@@ -1,2 +1,6 @@
 https://github.com/hyperskill/hs-test-python/archive/release.tar.gz
-pandas
+lxml
+beautifulsoup4
+nltk
+numpy
+scikit-learn

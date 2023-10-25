@@ -7,6 +7,7 @@ Here's the link to the project: https://hyperskill.org/projects/90
 
 Check out my profile: https://hyperskill.org/profile/1254124
 
+_Example:_
 ```python
 > python creditcalc.py --type=diff --principal=1000000 --periods=10 --interest=10
 Month 1: payment is 108334

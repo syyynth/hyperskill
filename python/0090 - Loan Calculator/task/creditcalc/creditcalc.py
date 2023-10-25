@@ -2,14 +2,13 @@ import argparse
 import math
 from typing import Any
 
-from commands import AnnuityPeriodCommand, AnnuityPaymentCommand, AnnuityPrincipalCommand, \
-    DifferentiatedPaymentsCommand
+from commands import AnnuityPaymentCommand, AnnuityPeriodCommand, AnnuityPrincipalCommand, DifferentiatedPaymentsCommand
 
 parser = argparse.ArgumentParser(
     description='Loan Calculator',
     allow_abbrev=False
 )
-parser.add_argument('--type', choices=['annuity', 'diff'])
+parser.add_argument('--type', type=str)
 parser.add_argument('--payment', type=float)
 parser.add_argument('--principal', type=float)
 parser.add_argument('--interest', type=float)
@@ -61,16 +60,25 @@ class LoanCalculator:
         ]
 
 
+def exists_and_positive(value):
+    return value and value > 0
+
+
+def all_exists_and_positive(*values):
+    return all(exists_and_positive(value) for value in values)
+
+
 def get_command(calculator, commands) -> Any:
-    if commands.type == 'annuity':
-        if calculator.principal and calculator.payment and calculator.interest:
-            return AnnuityPeriodCommand(calculator)
-        elif calculator.principal and calculator.periods and calculator.interest:
-            return AnnuityPaymentCommand(calculator)
-        elif calculator.payment and calculator.periods and calculator.interest:
-            return AnnuityPrincipalCommand(calculator)
-    elif commands.type == 'diff' and calculator.principal and calculator.periods and calculator.interest:
-        return DifferentiatedPaymentsCommand(calculator)
+    command_map = {
+        'annuity': [(AnnuityPeriodCommand, (calculator.principal, calculator.payment, calculator.interest)),
+                    (AnnuityPaymentCommand, (calculator.principal, calculator.periods, calculator.interest)),
+                    (AnnuityPrincipalCommand, (calculator.payment, calculator.periods, calculator.interest))],
+        'diff': [(DifferentiatedPaymentsCommand, (calculator.principal, calculator.periods, calculator.interest))]
+    }
+
+    for command_class, parameters in command_map.get(commands.type, ()):
+        if all_exists_and_positive(*parameters):
+            return command_class(calculator)
 
 
 def main() -> None:
@@ -82,7 +90,10 @@ def main() -> None:
                         args.payment)
 
     command = get_command(lc, args)
-    command and command.execute() or print('Incorrect parameters')
+    if command:
+        command.execute()
+    else:
+        print('Incorrect parameters')
 
 
 if __name__ == '__main__':

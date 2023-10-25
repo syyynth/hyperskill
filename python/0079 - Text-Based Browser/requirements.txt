@@ -2,4 +2,3 @@ requests
 beautifulsoup4
 colorama
 https://github.com/hyperskill/hs-test-python/archive/release.tar.gz
-

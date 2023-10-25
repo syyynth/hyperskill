@@ -6,3 +6,55 @@ This is the *Simple Tic-Tac-Toe (Python)* project I made myself.
 Here's the link to the project: https://hyperskill.org/projects/73
 
 Check out my profile: https://hyperskill.org/profile/1254124
+
+_Example:_
+```python
+---------
+|       |
+|       |
+|       |
+---------
+> 1 1
+---------
+| X     |
+|       |
+|       |
+---------
+> 1 2
+---------
+| X O   |
+|       |
+|       |
+---------
+> 1 3
+---------
+| X O X |
+|       |
+|       |
+---------
+> 2 1
+---------
+| X O X |
+| O     |
+|       |
+---------
+> 2 2
+---------
+| X O X |
+| O X   |
+|       |
+---------
+> 2 3
+---------
+| X O X |
+| O X O |
+|       |
+---------
+> 3 1
+---------
+| X O X |
+| O X O |
+| X     |
+---------
+X wins
+```

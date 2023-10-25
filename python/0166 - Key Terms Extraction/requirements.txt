@@ -1,2 +1,6 @@
 https://github.com/hyperskill/hs-test-python/archive/release.tar.gz
+lxml
+nltk
+scikit-learn
 pandas
+pytest

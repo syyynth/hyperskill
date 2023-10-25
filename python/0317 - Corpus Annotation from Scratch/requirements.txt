@@ -1,2 +1,6 @@
 https://github.com/hyperskill/hs-test-python/archive/release.tar.gz
+spacy
 pandas
+scipy
+numpy
+nltk

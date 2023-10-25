@@ -6,3 +6,10 @@ This is the *Opinion Detector* project I made myself.
 Here's the link to the project: https://hyperskill.org/projects/216
 
 Check out my profile: https://hyperskill.org/profile/1254124
+
+_Output:_
+```python
+The method with the better accuracy: SGDClassifier
+The worst predicted class for both classifiers: Negative
+The difference between the SGDClassifier and the rule-based approach: 0.18
+```

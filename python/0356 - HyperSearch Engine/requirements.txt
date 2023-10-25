@@ -1,4 +1,4 @@
 https://github.com/hyperskill/hs-test-python/archive/release.tar.gz
-scikit-learn==1.0.2
-spacy==3.4.4
-https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.4.1/en_core_web_sm-3.4.1.tar.gz
+scikit-learn
+spacy
+https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.7.0/en_core_web_sm-3.7.0.tar.gz

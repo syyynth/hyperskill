@@ -18,7 +18,7 @@ def check_password(args, password):
     sha1 = get_password_hash(password)
 
     if args.show_hash:
-        print('Your hashed password is:', sha1)
+        print('Your hashed password is: ', sha1)
 
     url = f'https://api.pwnedpasswords.com/range/{sha1[:5]}'
 
@@ -37,7 +37,7 @@ def check_password(args, password):
 def main():
     args = create_parser()
 
-    while (password := input("Enter your password (or 'exit' to quit):")) != 'exit':
+    while (password := input("Enter your password (or 'exit' to quit):\n")) != 'exit':
         if len(password) < 8:
             print('Your password is too short. Please enter a password of at least 8 characters.')
             continue

@@ -6,3 +6,13 @@ This is the *Linear Regression from Scratch* project I made myself.
 Here's the link to the project: https://hyperskill.org/projects/195
 
 Check out my profile: https://hyperskill.org/profile/1254124
+
+_Output:_
+```python
+{
+    'Intercept': -4.085620730620576e-13,
+	'Coefficient': array([4.44089210e-16, 1.77635684e-15, 1.78745907e-14]),
+	'R2': 0.0,
+	'RMSE': 0.0
+}
+```

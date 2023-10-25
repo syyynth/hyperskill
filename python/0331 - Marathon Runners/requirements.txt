@@ -1,3 +1,4 @@
 https://github.com/hyperskill/hs-test-python/archive/release.tar.gz
 requests
-
+numpy
+pandas

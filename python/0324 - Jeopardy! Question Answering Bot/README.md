@@ -1,4 +1,11 @@
-Create a bot that can answer questions in different fields of knowledge, using the Jeopardy! question-answering database. In 2011, IBM Watson beat people at this game. Can your QA bot do better?
+This is the *Jeopardy! Question Answering Bot* project I made myself.
+
+
+<p>Create a bot that can answer questions in different fields of knowledge, using the Jeopardy! question-answering database. In 2011, IBM Watson beat people at this game. Can your QA bot do better?</p><br/><br/>Learn more at <a href="https://hyperskill.org/projects/324?utm_source=ide&utm_medium=ide&utm_campaign=ide&utm_content=project-card">https://hyperskill.org/projects/324</a>
+
+Here's the link to the project: https://hyperskill.org/projects/324
+
+Check out my profile: https://hyperskill.org/profile/1254124
 
 ```python
 Hello! I'm Ken Jennings, a question answering bot who knows answers to all questions from the 'Jeopardy!' game.
@@ -19,14 +26,14 @@ Do you want to ask me again? (yes/no)
 Ask me something!
 > In Egypt & Algeria, some areas of this desert are below sea level
 Let's play!
-I know this question: its number is 79995. I'm 93% sure of this.
+I know this question: its number is 79995. I'm 95% sure of this.
 The answer is Sahara
 Do you want to ask me again? (yes/no)
 > yes
 Ask me something!
 > After converting this Balkan country to Christianity, Czar Boris I put out his own son's eyes
 Let's play!
-I know this question: its number is 51508. I'm 97% sure of this.
+I know this question: its number is 51508. I'm 96% sure of this.
 The answer is Bulgaria
 Do you want to ask me again? (yes/no)
 > yes

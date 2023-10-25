@@ -1,24 +1,24 @@
 
-Python: 3.11+<br>
-This list is just a ~todo~ list, you can use it as such.
+
+This list is just a _todo_ list, you can use it as such.
 Don't cheat and don't copy solutions; it's useless, harmful and stupid. 🤦🏼‍♂️
 The provided code doesn't follow any strict style guidelines and the style of the project solely depends on the mood of the author.
 The solution contains code for the last stage and the test file (all coding problems are omitted).
 
-```
-Example: how to run (Weather App Project, Windows, PowerShell):
- - copy project to whatever directory
- - cd to this direcotry
- - python.exe -m venv .venv
- - .\.venv\Scripts\activate
- - pip install -r requirements.txt
- - python.exe .\task\web\app.py
-```
+
 ---
 
 # PYTHON
 🐍 Total: 104, 👷🏼‍♂️ In process: 65, 🐱‍👤 Done: 39
 
+### Example of a run (Python 3.11, Windows, PowerShell):
+```bash
+$ cd '.\python\0164 - Weather App\'
+$ python.exe -m venv .venv
+$ .\.venv\Scripts\activate
+$ pip install -r requirements.txt
+$ python.exe .\task\web\app.py
+```
 ---
 
 ### EASY

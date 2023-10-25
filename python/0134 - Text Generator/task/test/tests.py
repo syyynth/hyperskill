@@ -26,11 +26,13 @@ class TextGeneratorTests(StageTest):
             return CheckResult.wrong("File not found at {}. Make sure the file "
                                      "has not been deleted or moved.".format(PATH))
 
+        trigrams = {" ".join(corpus[i:i+3]) for i in range(len(corpus)-2)}
         sentences = [sentence for sentence in reply.split('\n') if len(sentence)]
 
         if len(sentences) != 10:
-            return CheckResult.wrong("You should output exactly 10 sentences! "
-                                     "Every sentence should be in a new line.")
+            return CheckResult.wrong(
+                "You should output exactly 10 sentences! Every "
+                "sentence should be in a new line.")
 
         for sentence in sentences:
             sent = sentence.split()
@@ -59,6 +61,12 @@ class TextGeneratorTests(StageTest):
                     return CheckResult.wrong(
                         "If a sentence is longer than 5 tokens, it "
                         "should end at the first sentence ending punctuation.")
+            for i in range(len(sent)-2):
+                trigram = " ".join(sent[i:i+3])
+                if trigram not in trigrams:
+                    return CheckResult.wrong(
+                        "Pseudo-sentences should entirely consist of "
+                        "trigrams from the corpus.")
         return CheckResult.correct()
 
 

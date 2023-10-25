@@ -100,26 +100,48 @@ class LoanCalcTest(StageTest):
                     14628,
                 ],
             ),
-
+            # Type is not diff nor annuity
             TestCase(
-                args=[
-                    '--type=annuity',
-                    '--principal=1000000',
-                    '--payment=104000',
-                ],
+                args=['--type=notdiff', '--principal=1000000', '--payment=104000', '--periods=8', ],
                 attach='Incorrect',
             ),
-
+            # Type is not specified
             TestCase(
-                args=[
-                    '--type=diff',
-                    '--principal=-1000000',
-                    '--payment=104000',
-                    '--periods=8',
-                ],
+                args=['--principal=1000000', '--payment=104000', '--periods=8', '--interest=10'],
                 attach='Incorrect',
             ),
-
+            # Payment provided while type is diff
+            TestCase(
+                args=['--type=diff', '--principal=-1000000', '--payment=104000', '--periods=8', ],
+                attach='Incorrect',
+            ),
+            # Interest is not specified
+            TestCase(
+                args=['--type=annuity', '--principal=1000000', '--payment=104000', '--periods=8', ],
+                attach='Incorrect',
+            ),
+            # Less than 4 arguments
+            TestCase(
+                args=['--type=annuity', '--principal=1000000', '--payment=104000', ],
+                attach='Incorrect',
+            ),
+            # Values are negative
+            TestCase(
+                args=['--type=diff', '--principal=-1000000', '--periods=10', '--interest=10', ],
+                attach='Incorrect',
+            ),
+            TestCase(
+                args=['--type=diff', '--principal=1000000', '--periods=-10', '--interest=10', ],
+                attach='Incorrect',
+            ),
+            TestCase(
+                args=['--type=diff', '--principal=1000000', '--periods=10', '--interest=-10', ],
+                attach='Incorrect',
+            ),
+            TestCase(
+                args=['--type=annuity', '--principal=1000000', '--payment=-104000', '--interest=10', ],
+                attach='Incorrect',
+            ),
         ]
 
     def check(self, reply, attach):

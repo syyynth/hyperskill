@@ -7,4 +7,4 @@ No,194,32,1.82,cycling 3h
 No,110.8,41,1.66,cycling 3h
 No,161.2,29,1.9,cycling 5h
 No,200,55,1.96,nothing
-No,82.8,38,1.78,cycling 5h	
+No,82.8,38,1.78,cycling 5h

@@ -6,3 +6,15 @@ This is the *Password Checker* project I made myself.
 Here's the link to the project: https://hyperskill.org/projects/381
 
 Check out my profile: https://hyperskill.org/profile/1254124
+
+_Example:_
+```python
+Enter your password (or 'exit' to quit):
+> password
+Checking...
+A request was sent to "https://api.pwnedpasswords.com/range/5baa6" endpoint, awaiting response...
+Your password has been pwned! The password "password" appears 9659365 times in data breaches.
+Enter your password (or 'exit' to quit):
+> exit
+Goodbye!
+```

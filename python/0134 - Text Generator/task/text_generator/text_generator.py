@@ -11,23 +11,28 @@ def get_random_word(corpus: list[str], weights: list[int] = None) -> str:
 
 
 corpus_set = [*set(corpus)]
-bigrams_counts = Counter(zip(corpus, corpus[1:]))
+trigrams_counts = Counter(zip(corpus, corpus[1:], corpus[2:]))
 banned_chars = tuple(string.punctuation + string.digits)
 
 grouped_data = {}
-for (head, tail), count in bigrams_counts.items():
-    grouped_data.setdefault(head, []).append((tail, count))
+for (head1, head2, tail), count in trigrams_counts.items():
+    grouped_data.setdefault((head1, head2), []).append((tail, count))
 
 for _ in range(10):
-    while ((word := get_random_word(corpus)).endswith(banned_chars)
-           or word.startswith(banned_chars)
-           or word[0] != word[0].upper()):
-        word = random.choices(corpus_set)
+    while True:
+        word1, word2 = random.choices(list(grouped_data))[0]
+        if (word1.endswith(banned_chars)
+                or word1.startswith(banned_chars)
+                or word1[0] != word1[0].upper()
+                or word2.endswith(banned_chars)
+                or word2.startswith(banned_chars)):
+            continue
+        break
 
-    sent: list[str] = [word]
+    sent: list[str] = [word1, word2]
 
     while len(sent) < 5 or not sent[-1].endswith(tuple('.!?')):
-        word = get_random_word(*zip(*grouped_data[word]))
+        word = get_random_word(*zip(*grouped_data[(sent[-2], sent[-1])]))
         sent.append(word)
 
     print(' '.join(sent))
