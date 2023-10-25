@@ -1,0 +1,5 @@
+https://github.com/hyperskill/hs-test-python/archive/release.tar.gz
+Flask
+beautifulsoup4
+requests
+Flask-SQLAlchemy
