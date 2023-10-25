@@ -8,4 +8,3 @@ Here's the link to the project: https://hyperskill.org/projects/164
 Check out my profile: https://hyperskill.org/profile/1254124
 
 https://github.com/syyynth/hyperskill/assets/102881855/6e705ee8-e2e7-47d6-9578-835463c0ece1
-
