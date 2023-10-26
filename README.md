@@ -7,9 +7,10 @@ The solution contains code for the last stage and the test file (all coding prob
 
 
 ---
-
 # PYTHON
 🐍 Total: 104, 👷🏼‍♂️ In process: 65, 🐱‍👤 Done: 39
+
+Note that these projects are from Python paths and some of them may not be Python projects per se (e.g., Gitman).
 
 ### Example of a run (Python 3.11, Windows, PowerShell):
 ```bash
