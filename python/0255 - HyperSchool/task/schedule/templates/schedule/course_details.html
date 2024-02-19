@@ -1,0 +1,25 @@
+{% extends 'schedule/base.html' %}
+
+{% block content %}
+
+    <h2>{{ course.title }}</h2>
+
+    <p>Information: {{ course.info }}</p>
+    <p>Duration: {{ course.duration_months }} months</p>
+    <p>Price: {{ course.price }}</p>
+
+    <h3>Teachers:</h3>
+    {% for teacher in course.teacher.all %}
+        <p><a href="{% url 'teacher_details' teacher.pk %}">{{ teacher.name }} {{ teacher.surname }}</a></p>
+    {% endfor %}
+
+
+    <h3>Students:</h3>
+    {% for student in course.student_set.all %}
+        <p>{{ student.name }} {{ student.surname }}</p>
+    {% endfor %}
+
+    {% include 'schedule/course_apply.html' %}
+    {% include 'schedule/back_to_courses.html' %}
+
+{% endblock %}

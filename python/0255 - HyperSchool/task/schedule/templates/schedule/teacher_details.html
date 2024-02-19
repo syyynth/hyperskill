@@ -1,0 +1,14 @@
+{% extends 'schedule/base.html' %}
+
+{% block content %}
+
+    <h2>{{ course.title }}</h2>
+
+    <p>Name: {{ teacher.name }}</p>
+    <p>Surname: {{ teacher.surname }}</p>
+    <p>Age: {{ teacher.age }}</p>
+    <p>About: {{ teacher.about }}</p>
+
+    {% include 'schedule/back_to_courses.html' %}
+
+{% endblock %}
