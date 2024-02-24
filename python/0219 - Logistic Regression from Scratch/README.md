@@ -1,3 +1,5 @@
+![graph](/python/0219%20-%20Logistic%20Regression%20from%20Scratch/graph.jpg)
+
 This is the *Logistic Regression from Scratch* project I made myself.
 
 
