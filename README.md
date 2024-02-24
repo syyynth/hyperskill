@@ -22,10 +22,6 @@ $ python.exe .\task\web\app.py
 ```
 ---
 
-########################
-###	 PYTHON
-########################
-
 ### EASY
 1) 🐱‍👤 [Loan Calculator](https://github.com/syyynth/hyperskill/tree/main/python/0090%20-%20Loan%20Calculator) - https://hyperskill.org/projects/90
 2) 🐱‍👤 [Simple Chat Bot with Python](https://github.com/syyynth/hyperskill/tree/main/python/0097%20-%20Simple%20Chatty%20Bot%20(Python)) - https://hyperskill.org/projects/97
