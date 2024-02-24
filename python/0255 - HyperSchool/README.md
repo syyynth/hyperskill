@@ -1,5 +1,4 @@
-![django-panel](https://github.com/syyynth/hyperskill/assets/102881855/cde37c07-973a-4b66-a09f-4857772d2131)
-
+![graph](/python/0255 - HyperSchool/demo.jpg)
 
 This is the *HyperSchool* project I made myself.
 
