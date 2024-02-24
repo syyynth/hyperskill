@@ -1,4 +1,4 @@
-![graph](/python/0255 - HyperSchool/demo.jpg)
+![demo](/python/0255%20-%20HyperSchool/demo.jpg)
 
 This is the *HyperSchool* project I made myself.
 
