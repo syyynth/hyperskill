@@ -1,0 +1,16 @@
+{% extends 'shop/base.html' %}
+
+{% block content %}
+    <h2>{{ bike.name }}</h2>
+    <p>frame: {{ bike.frame.color }}</p>
+    <p>tires: {{ bike.tire.type }}</p>
+    <p>seat: {{ bike.seat.color }}</p>
+    <p>basket: {{ bike.has_basket|yesno }}</p>
+    <p>description: {{ bike.description }}</p>
+
+    {% if bike.is_available %}
+        {% include 'shop/order.html' %}
+    {% else %}
+        <p><b>Unfortunately, this bike is currently not available.</b></p>
+    {% endif %}
+{% endblock %}

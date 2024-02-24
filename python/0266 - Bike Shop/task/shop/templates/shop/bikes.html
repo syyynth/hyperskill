@@ -1,0 +1,10 @@
+{% extends 'shop/base.html' %}
+
+{% block content %}
+    <h2>Choose one of our bikes:</h2>
+    <ul>
+        {% for bike in bikes %}
+            <li><p><a href='{% url 'bike_details' bike.pk %}'>{{ bike.name }}</a></p></li>
+        {% endfor %}
+    </ul>
+{% endblock %}

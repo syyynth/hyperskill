@@ -1,0 +1,6 @@
+<p><b>If you want to order the bike, fill in the form below:</b></p>
+<form method='post'>
+    {% csrf_token %}
+    {{ form.as_p }}
+    <button type='submit'>Order</button>
+</form>
