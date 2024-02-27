@@ -23,7 +23,7 @@ $ python.exe .\task\web\app.py
 4) 🐱‍👤 [Zookeeper with Python](https://github.com/syyynth/hyperskill/tree/main/python/0098%20-%20Zookeeper%20(Python)) - https://hyperskill.org/projects/98
 5) 👷🏼‍♂️ HyperTube - https://hyperskill.org/projects/131
 6) 🐱‍👤 [Generating Randomness](https://github.com/syyynth/hyperskill/tree/main/python/0156%20-%20Generating%20Randomness) - https://hyperskill.org/projects/156
-7) 🐱‍👤 [HyperForms](https://github.com/syyynth/hyperskill/tree/main/python/0172%20-%20HyperForms) - https://hyperskill.org/projects/172
+7) 🐱‍👤 <img height="20" src="assets/django.ico" width="20"/> [HyperForms](https://github.com/syyynth/hyperskill/tree/main/python/0172%20-%20HyperForms) - https://hyperskill.org/projects/172
 8) 🐱‍👤 [Bill Splitter](https://github.com/syyynth/hyperskill/tree/main/python/0175%20-%20Bill%20Splitter) - https://hyperskill.org/projects/175
 9) 🐱‍👤 [Last Pencil (Python)](https://github.com/syyynth/hyperskill/tree/main/python/0258%20-%20Last%20Pencil) - https://hyperskill.org/projects/258
 10) 🐱‍👤 [Gitman](https://github.com/syyynth/hyperskill/tree/main/python/0296%20-%20Gitman) - https://hyperskill.org/projects/296
@@ -44,7 +44,7 @@ $ python.exe .\task\web\app.py
 23) 🐱‍👤 [Honest Calculator](https://github.com/syyynth/hyperskill/tree/main/python/0208%20-%20Honest%20Calculator) - https://hyperskill.org/projects/208
 24) 👷🏼‍♂️ Regex Tester (Django) - https://hyperskill.org/projects/218
 25) 🐱‍👤 [Read Quality Control](https://github.com/syyynth/hyperskill/tree/main/python/0235%20-%20Read%20Quality%20Control) - https://hyperskill.org/projects/235
-26) 🐱‍👤 [Bike Shop](https://github.com/syyynth/hyperskill/tree/main/python/0266%20-%20Bike%20Shop) - https://hyperskill.org/projects/266
+26) 🐱‍👤 <img height="20" src="assets/django.ico" width="20"/> [Bike Shop](https://github.com/syyynth/hyperskill/tree/main/python/0266%20-%20Bike%20Shop) - https://hyperskill.org/projects/266
 27) 👷🏼‍♂️ HR Data Analysis - https://hyperskill.org/projects/268
 28) 👷🏼‍♂️ K-Means Clustering from Scratch - https://hyperskill.org/projects/286
 29) 👷🏼‍♂️ Learning Progress Tracker (Python) - https://hyperskill.org/projects/326
@@ -106,7 +106,7 @@ $ python.exe .\task\web\app.py
 81) 👷🏼‍♂️ To-do List API - https://hyperskill.org/projects/242
 82) 👷🏼‍♂️ Regex Tester (Flask) - https://hyperskill.org/projects/247
 83) 👷🏼‍♂️ Neural Network from Scratch - https://hyperskill.org/projects/250
-84) 🐱‍👤 [HyperSchool](https://github.com/syyynth/hyperskill/tree/main/python/0255%20-%20HyperSchool) - https://hyperskill.org/projects/255
+84) 🐱‍👤 <img height="20" src="assets/django.ico" width="20"/> [HyperSchool](https://github.com/syyynth/hyperskill/tree/main/python/0255%20-%20HyperSchool) - https://hyperskill.org/projects/255
 85) 👷🏼‍♂️ Calculator for Investors - https://hyperskill.org/projects/264
 86) 👷🏼‍♂️ Movie Quality Predictor - https://hyperskill.org/projects/273
 87) 👷🏼‍♂️ ELISA - https://hyperskill.org/projects/283
