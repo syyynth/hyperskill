@@ -1,3 +1,4 @@
+Preview:
 ![demo](/python/0172%20-%20HyperForms/books.png)
 
 This is the *HyperForms* project I made myself.
@@ -9,4 +10,6 @@ Here's the link to the project: https://hyperskill.org/projects/172
 
 Check out my profile: https://hyperskill.org/profile/1254124
 
+
+UML:
 ![demo](/python/0172%20-%20HyperForms/HyperForms.png)
