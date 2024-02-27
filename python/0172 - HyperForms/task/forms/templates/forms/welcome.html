@@ -1,0 +1,14 @@
+{% extends 'forms/main.html' %}
+
+{% block content %}
+
+    <h2>Welcome to the reading club</h2>
+    <p>This is a club for book enthusiasts to share and discuss their favorite reads.</p>
+
+    <a href='{% url 'register' %}'>
+        <button type='button'>Click here to join!</button>
+    </a>
+
+    {% include 'forms/participants.html' %}
+
+{% endblock %}

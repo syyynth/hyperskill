@@ -1,0 +1,26 @@
+{% extends 'forms/main.html' %}
+{% load filters %}
+
+{% block content %}
+    {% if participants %}
+        <p>Current club participants:</p>
+        <table>
+            <!-- Create table headers dynamically -->
+            <tr>
+                {% for field in fields %}
+                    <th>{{ field.label }}</th>
+                {% endfor %}
+            </tr>
+            <!-- Create table rows dynamically -->
+            {% for participant in participants %}
+                <tr>
+                    {% for field in fields %}
+                        <td>{{ participant|get:field.name|default:'' }}</td>
+                    {% endfor %}
+                </tr>
+            {% endfor %}
+        </table>
+    {% else %}
+        <p>No participants so far. Be the first!</p>
+    {% endif %}
+{% endblock %}
