@@ -1,0 +1,15 @@
+{% extends 'news/main.html' %}
+
+{% block content %}
+
+    {% regroup news by created_date as news_list %}
+    {% for created_date, articles in news_list %}
+        <h4>{{ created_date }}</h4>
+        <ul>
+            {% for article in articles %}
+                <li><a href="{% url 'article' article.link %}">{{ article.title }}</a></li>
+            {% endfor %}
+        </ul>
+    {% endfor %}
+
+{% endblock %}

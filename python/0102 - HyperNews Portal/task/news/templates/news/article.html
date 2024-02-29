@@ -1,0 +1,20 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HyperNews: {{ article.title }}</title>
+    <link rel="stylesheet" href="{% static 'news/css/base.css' %}">
+</head>
+<body>
+
+{% if article %}
+    <h2>{{ article.title }}</h2>
+    <p>{{ article.created }}</p>
+    <p>{{ article.text }}</p>
+{% endif %}
+
+<a href="{% url 'main' %}">Back to the main page</a>
+</body>
+</html>

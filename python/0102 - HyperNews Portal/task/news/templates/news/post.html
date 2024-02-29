@@ -1,0 +1,20 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Post your article</title>
+    <link rel="stylesheet" href="{% static 'news/css/base.css' %}">
+</head>
+<body>
+{% block content %}
+    <form method="post">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <button type="submit">Add</button>
+    </form>
+    <a href="{% url 'main' %}">Go to main page</a>
+{% endblock %}
+</body>
+</html>

@@ -1,0 +1,21 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HyperNews</title>
+    <link rel="stylesheet" href="{% static 'news/css/base.css' %}">
+</head>
+<body>
+<h2>Hyper news</h2>
+
+{% block content %}
+{% endblock %}
+
+<a href="{% url 'create' %}">Post news</a>
+
+{% include 'news/search.html' %}
+
+</body>
+</html>
