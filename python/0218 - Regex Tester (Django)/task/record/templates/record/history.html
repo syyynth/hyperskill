@@ -1,0 +1,9 @@
+{% extends 'record/base.html' %}
+
+{% block regex %}
+    <ul>
+        {% for record in records %}
+            <li><a href="{% url 'record' pk=record.pk %}">{{ record.regex }}</a></li>
+        {% endfor %}
+    </ul>
+{% endblock %}

@@ -1,0 +1,13 @@
+{% extends 'record/base.html' %}
+
+{% block regex %}
+    <h2>Welcome to regex testing tool!</h2>
+
+    <form method="post">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <button type="submit">Submit</button>
+    </form>
+
+    <a href="{% url 'history' %}">History</a>
+{% endblock %}
