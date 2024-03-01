@@ -2,7 +2,7 @@ This list serves merely as a _to-do_ list, and you're welcome to use it as such.
 
 ---
 # PYTHON
-🐍 Total: 112, 👷🏼‍♂️ In process: 64, 🐱‍👤 Done: 48
+🐍 Total: 114, 👷🏼‍♂️ In process: 64, 🐱‍👤 Done: 50
 
 Please note that these projects are automatically fetched from Python paths. However, not all of them may be Python projects per se, such as Gitman. Some may have been placed there by accident and will be removed in the future.
 
@@ -42,7 +42,7 @@ $ python.exe .\task\web\app.py
 21) 🐱‍👤 [Currency Converter](https://github.com/syyynth/hyperskill/tree/main/python/0157%20-%20Currency%20Converter) - https://hyperskill.org/projects/157
 22) 👷🏼‍♂️ Arithmetic Exam Application - https://hyperskill.org/projects/173
 23) 🐱‍👤 [Honest Calculator](https://github.com/syyynth/hyperskill/tree/main/python/0208%20-%20Honest%20Calculator) - https://hyperskill.org/projects/208
-24) 👷🏼‍♂️ Regex Tester (Django) - https://hyperskill.org/projects/218
+24) 🐱‍👤 [Regex Tester (Django)](https://github.com/syyynth/hyperskill/tree/main/python/0218%20-%20Regex%20Tester%20(Django)) - https://hyperskill.org/projects/218
 25) 🐱‍👤 [Read Quality Control](https://github.com/syyynth/hyperskill/tree/main/python/0235%20-%20Read%20Quality%20Control) - https://hyperskill.org/projects/235
 26) 🐱‍👤 [Bike Shop](https://github.com/syyynth/hyperskill/tree/main/python/0266%20-%20Bike%20Shop) - https://hyperskill.org/projects/266
 27) 👷🏼‍♂️ HR Data Analysis - https://hyperskill.org/projects/268
@@ -86,7 +86,7 @@ $ python.exe .\task\web\app.py
 61) 👷🏼‍♂️ Google Search Algorithm with Python - https://hyperskill.org/projects/92
 62) 👷🏼‍♂️ HyperJob Agency - https://hyperskill.org/projects/94
 63) 👷🏼‍♂️ Numeric Matrix Processor (Python) - https://hyperskill.org/projects/96
-64) 👷🏼‍♂️ HyperNews Portal - https://hyperskill.org/projects/102
+64) 🐱‍👤 [HyperNews Portal](https://github.com/syyynth/hyperskill/tree/main/python/0102%20-%20HyperNews%20Portal) - https://hyperskill.org/projects/102
 65) 👷🏼‍♂️ To-Do List (Python) - https://hyperskill.org/projects/105
 66) 👷🏼‍♂️ Static Code Analyzer - https://hyperskill.org/projects/112
 67) 🐱‍👤 [Simple Text Summarization](https://github.com/syyynth/hyperskill/tree/main/python/0124%20-%20Simple%20Text%20Summarization) - https://hyperskill.org/projects/124
@@ -137,6 +137,8 @@ $ python.exe .\task\web\app.py
 110) 👷🏼‍♂️ NgurraChat Censor App - https://hyperskill.org/projects/401
 111) 👷🏼‍♂️ ToDo List (Flask) - https://hyperskill.org/projects/412
 112) 👷🏼‍♂️ Don't use - https://hyperskill.org/projects/435
+113) 👷🏼‍♂️ Programming Assistant with AI - https://hyperskill.org/projects/441
+114) 👷🏼‍♂️ Basic Clustering for Complex Shapes - https://hyperskill.org/projects/443
 
 ---
 # Math/ML/Algorithms/Graphs/etc, w/o solutions
