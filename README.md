@@ -63,7 +63,7 @@ $ python.exe .\task\web\app.py
 40) 👷🏼‍♂️ Regex Engine (Python) - https://hyperskill.org/projects/114
 41) 👷🏼‍♂️ Flashcards (Python) - https://hyperskill.org/projects/127
 42) 👷🏼‍♂️ Easy Rider Bus Company - https://hyperskill.org/projects/128
-43) 🐱‍👤 [HyperTube]() - https://hyperskill.org/projects/131
+43) 🐱‍👤 [HyperTube](https://github.com/syyynth/hyperskill/tree/main/python/0131%20-%20HyperTube) - https://hyperskill.org/projects/131
 44) 🐱‍👤 [Text Generator](https://github.com/syyynth/hyperskill/tree/main/python/0134%20-%20Text%20Generator) - https://hyperskill.org/projects/134
 45) 👷🏼‍♂️ Duskers - https://hyperskill.org/projects/136
 46) 👷🏼‍♂️ Knight's Tour Puzzle - https://hyperskill.org/projects/141
