@@ -1,0 +1,24 @@
+{% extends 'tube/base.html' %}
+
+{% block content %}
+    <main>
+        <form method="GET" class="search-bar">
+            <input type="text" name="q" class="search-input" placeholder="Search...">
+            <button type="submit" class="search-button">search</button>
+        </form>
+        {% if request.GET.tag %}
+            <p><a href="{% url 'main' %}?tag={{ request.GET.tag }}" class="tag-link">#{{ request.GET.tag }}</a></p>
+        {% endif %}
+        <p>{{ videos|length }} video{{ videos|pluralize }}</p>
+        <div class="video-container">
+            {% for video in videos %}
+                <article>
+                    <h3><a href="{% url 'watch' video.id %}">{{ video.title }}</a></h3>
+                </article>
+            {% empty %}
+                <p>No videos found.</p>
+            {% endfor %}
+        </div>
+    </main>
+{% endblock %}
+

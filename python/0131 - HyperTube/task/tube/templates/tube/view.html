@@ -1,0 +1,21 @@
+{% extends 'tube/base.html' %}
+
+{% block content %}
+    <video
+            controls
+            width="960"
+            height="540"
+            muted
+            preload="auto">
+        <source src="{% url 'serve' video.file %}" type="video/mp4"/>
+        <p>
+            Your browser doesn't support this video. Here is a
+            <a href="{% url 'serve' video.file %}">link to the video</a> instead.
+        </p>
+    </video>
+
+    <p>{{ video.title }}</p>
+    {% for tag in tags %}
+        <a href="{% url 'main' %}?tag={{ tag }}" class="tag-link">#{{ tag }}</a>
+    {% endfor %}
+{% endblock %}

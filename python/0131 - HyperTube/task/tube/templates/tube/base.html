@@ -1,0 +1,31 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hypertube</title>
+    <link rel="stylesheet" href="{% static 'tube/styles.css' %}">
+</head>
+<body>
+<header>
+    <a href="{% url 'main' %}"><h2>Hypertube</h2></a>
+</header>
+<nav>
+    <a href="{% url 'upload' %}" class="button">Upload video</a>
+    {% if user.is_authenticated %}
+        <p>Hello, {{ user.username }}</p>
+        <a href="{% url 'logout' %}" class="button">Logout</a>
+    {% else %}
+        <a href="{% url 'login' %}" class="button">Log in</a>
+    {% endif %}
+</nav>
+<div class="content">
+    {% block content %}
+    {% endblock %}
+</div>
+<footer>
+    <p>© 2024 Hypertube. All rights reserved.</p>
+</footer>
+</body>
+</html>
