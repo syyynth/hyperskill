@@ -1,0 +1,3 @@
+Begin with fundamental SQL operations such as SELECT, FROM, GROUP BY, and WHERE. Explore summation functions, logical operators, and comparison operators before advancing to more sophisticated concepts like subqueries, and join statements. This learning journey aims to provide you with the necessary skills for effectively retrieving essential information in SQL.
+
+https://hyperskill.org/projects/400

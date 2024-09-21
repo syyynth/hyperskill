@@ -1,0 +1,100 @@
+create_book_table = "
+create table book
+(
+    id         integer,
+    isbn       text    not null,
+    book_name  text    not null,
+    genre      text    not null,
+    author     text    not null,
+    book_year  integer not null,
+    book_count integer not null,
+    book_page  integer not null,
+    rank       real    not null,
+    primary key (id autoincrement)
+);
+"
+
+create_student_table = "
+create table student
+(
+    id            integer,
+    full_name     text not null,
+    gender        text not null,
+    date_of_birth text not null,
+    primary key (id autoincrement)
+);
+"
+
+create_staff_table = "
+create table staff
+(
+    id            integer,
+    full_name     text not null,
+    gender        text not null,
+    date_of_birth text not null,
+    primary key (id autoincrement)
+);
+"
+
+create_operation_table = "
+create table operation
+(
+    id               integer,
+    student_id       integer not null,
+    staff_id         integer not null,
+    book_id          integer not null,
+    iss_date         text    not null,
+    return_date      text    not null,
+    return_indicator numeric not null,
+    foreign key (book_id) references book (id),
+    foreign key (staff_id) references staff (id),
+    foreign key (student_id) references student (id),
+    primary key (id autoincrement)
+);
+"
+
+insert_book_table = "
+insert into book (isbn, book_name, genre, author, book_year, book_count, book_page, rank)
+values ('0393347095', 'The Metamorphosis', 'Novella', 'Franz Kafka', 2014, 2, 128, 4.4),
+       ('0439358078', 'Harry Potter And The Order Of The Phoenix', 'Fantasy', 'J.K. Rowling', 2004, 3, 896, 4.2),
+       ('0198800533', 'Anna Karenina', 'Realist Novel', 'Leo Tolstoy', 2017, 1, 896, 4.6);
+"
+
+insert_staff_table = "insert into staff (full_name, gender, date_of_birth)
+values ('Steve Smith', 'Male', '1992-04-23'),
+       ('Ashley Miller', 'Female', '1995-01-16');"
+
+insert_student_table = "
+insert into student (full_name, gender, date_of_birth)
+values ('Mia Yang', 'Female', '1996-09-15'),
+       ('Bob Lee', 'Male', '1997-12-13'),
+       ('Eric Rampy', 'Male', '1995-08-21'),
+       ('Stefany Ferenz', 'Female', '1996-04-01');
+"
+
+insert_operation_table = "
+insert into operation (student_id, staff_id, book_id, iss_date, return_date, return_indicator)
+values (3, 1, 1, date('now', '-4 days'), date('now', '+10 days'), 0),
+       (1, 1, 3, date('now', '-1 days'), date('now', '+13 days'), 0),
+       (2, 2, 2, date('now', '-1 days'), date('now', '+6 days'), 0),
+       (4, 2, 2, date(), date('now', '+14 days'), 0);
+"
+
+update_staff_inf = "
+update staff
+set full_name = 'Ashley Bailey'
+where full_name = 'Ashley Miller';
+"
+
+update_operation_inf = "
+update operation
+set return_date      = date('now'),
+    return_indicator = 1
+where student_id = 3;
+"
+
+update_book_inf = "
+update book
+set book_count = book_count + 1
+where book_name = 'The Metamorphosis';
+"

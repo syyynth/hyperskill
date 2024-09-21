@@ -1,0 +1,3 @@
+Good library management is all about keeping records. In the past, special logbooks were reserved for these purposes. The modern solution are databases, an excellent tool for storing big chunks of information — anything, from images to text, single-character data to thousands of digits. You don't even need to keep this data on your computer! Let's see how databases can help you with running a library.
+
+https://hyperskill.org/projects/272

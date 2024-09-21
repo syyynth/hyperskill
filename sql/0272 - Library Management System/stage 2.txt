@@ -1,0 +1,67 @@
+create_book_table = "CREATE TABLE book (
+    id INTEGER,
+    isbn TEXT NOT NULL,
+    book_name TEXT NOT NULL,
+    genre TEXT NOT NULL,
+    author TEXT NOT NULL,
+    book_year INTEGER NOT NULL,
+    book_count INTEGER NOT NULL,
+    book_page INTEGER NOT NULL,
+    rank REAL NOT NULL,
+    PRIMARY KEY(id)
+);"
+
+create_student_table = "CREATE TABLE student (
+    id INTEGER,
+    full_name TEXT NOT NULL,
+    gender TEXT NOT NULL,
+    date_of_birth TEXT NOT NULL,
+    PRIMARY KEY(id)
+);"
+
+create_staff_table = "CREATE TABLE staff (
+    id INTEGER,
+    full_name TEXT NOT NULL,
+    gender TEXT NOT NULL,
+    date_of_birth TEXT NOT NULL,
+    PRIMARY KEY(id)
+);"
+
+create_operation_table = "CREATE TABLE operation (
+    id INTEGER,
+    student_id INTEGER NOT NULL,
+    staff_id INTEGER NOT NULL,
+    book_id INTEGER NOT NULL,
+    iss_date TEXT NOT NULL,
+    return_date TEXT NOT NULL,
+    return_indicator NUMERIC NOT NULL,
+    FOREIGN KEY(book_id) REFERENCES book(id),
+    FOREIGN KEY(staff_id) REFERENCES staff(id),
+    FOREIGN KEY(student_id) REFERENCES student(id),
+    PRIMARY KEY(id)
+);"
+
+insert_book_table = "INSERT INTO book 
+VALUES
+    (1, '0393347095', 'The Metamorphosis', 'Novella', 'Franz Kafka', 2014, 2, 128, 4.4),
+    (2, '0439358078', 'Harry Potter And The Order Of The Phoenix', 'Fantasy', 'J.K. Rowling', 2004, 3, 896, 4.2),
+    (3, '0198800533', 'Anna Karenina', 'Realist Novel', 'Leo Tolstoy', 2017, 1, 896, 4.6);"
+
+insert_staff_table = "insert into staff
+values
+	(1, 'Steve Smith', 'Male', '1992-04-23'), 
+	(2, 'Ashley Miller', 'Female', '1995-01-16');"
+
+insert_student_table = "insert into student
+values
+	(1, 'Mia Yang', 'Female', '1996-09-15'),
+	(2, 'Bob Lee', 'Male', '1997-12-13'),
+	(3, 'Eric Rampy', 'Male', '1995-08-21'),
+	(4, 'Stefany Ferenz', 'Female', '1996-04-01');"
+
+insert_operation_table = "insert into operation
+values
+	(1, 3, 1, 1, date('now', '-4 days'), date('now', '+10 days'), 0),
+	(2, 1, 1, 3, date('now', '-1 days'), date('now', '+13 days'), 0),
+	(3, 2, 2, 2, date('now', '-1 days'), date('now', '+6 days'), 0),
+	(4, 4, 2, 2, date(), date('now', '+14 days'), 0);"
