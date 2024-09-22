@@ -2,7 +2,7 @@ This list serves merely as a _to-do_ list, and you're welcome to use it as such.
 
 ---
 # PYTHON
-🐍 Total: 125, 👷🏼‍♂️ In process: 73, 🐱‍👤 Done: 52
+🐍 Total: 125, 👷🏼‍♂️ In process: 72, 🐱‍👤 Done: 53
 
 Please note that these projects are automatically fetched. However, not all of them may be Python projects per se, such as Gitman. Some may have been placed there by accident and will be removed in the future.
 
@@ -105,7 +105,7 @@ python.exe .\task\web\app.py
 80) 👷🏼‍♂️ Static Code Analyzer - https://hyperskill.org/projects/112
 81) 🐱‍👤 [Simple Text Summarization](https://github.com/syyynth/hyperskill/tree/main/python/0124%20-%20Simple%20Text%20Summarization) - https://hyperskill.org/projects/124
 82) 👷🏼‍♂️ Flashcards (Python) - https://hyperskill.org/projects/127
-83) 👷🏼‍♂️ Linear Equations Solver (Python) - https://hyperskill.org/projects/144
+83) 🐱‍👤 [Linear Equations Solver (Python)](https://github.com/syyynth/hyperskill/tree/main/python/0144%20-%20Linear%20Equations%20Solver%20(Python)) - https://hyperskill.org/projects/144
 84) 👷🏼‍♂️ Tetris - https://hyperskill.org/projects/147
 85) 🐱‍👤 [Weather App](https://github.com/syyynth/hyperskill/tree/main/python/0164%20-%20Weather%20App) - https://hyperskill.org/projects/164
 86) 🐱‍👤 [Key Terms Extraction](https://github.com/syyynth/hyperskill/tree/main/python/0166%20-%20Key%20Terms%20Extraction) - https://hyperskill.org/projects/166
