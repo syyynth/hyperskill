@@ -2,7 +2,7 @@ This list serves merely as a _to-do_ list, and you're welcome to use it as such.
 
 ---
 # PYTHON
-🐍 Total: 125, 👷🏼‍♂️ In process: 72, 🐱‍👤 Done: 53
+🐍 Total: 125, 👷🏼‍♂️ In process: 68, 🐱‍👤 Done: 57
 
 Please note that these projects are automatically fetched. However, not all of them may be Python projects per se, such as Gitman. Some may have been placed there by accident and will be removed in the future.
 
@@ -50,7 +50,7 @@ python.exe .\task\web\app.py
 29) 🐱‍👤 [Markdown Editor](https://github.com/syyynth/hyperskill/tree/main/python/0162%20-%20Markdown%20Editor) - https://hyperskill.org/projects/162
 30) 🐱‍👤 [Arithmetic Exam Application](https://github.com/syyynth/hyperskill/tree/main/python/0173%20-%20Arithmetic%20Exam%20Application) - https://hyperskill.org/projects/173
 31) 🐱‍👤 [Read Quality Control](https://github.com/syyynth/hyperskill/tree/main/python/0235%20-%20Read%20Quality%20Control) - https://hyperskill.org/projects/235
-32) 👷🏼‍♂️ HR Data Analysis - https://hyperskill.org/projects/268
+32) 🐱‍👤 [HR Data Analysis](https://github.com/syyynth/hyperskill/tree/main/python/0268%20-%20HR%20Data%20Analysis) - https://hyperskill.org/projects/268
 33) 👷🏼‍♂️ K-Means Clustering from Scratch - https://hyperskill.org/projects/286
 34) 👷🏼‍♂️ Learning Progress Tracker (Python) - https://hyperskill.org/projects/326
 35) 👷🏼‍♂️ Random Forest from Scratch - https://hyperskill.org/projects/354
@@ -62,7 +62,7 @@ python.exe .\task\web\app.py
 
 ### HARD
 41) 👷🏼‍♂️ Tic-Tac-Toe with AI (Python) - https://hyperskill.org/projects/82
-42) 👷🏼‍♂️ Numeric Matrix Processor (Python) - https://hyperskill.org/projects/96
+42) 🐱‍👤 [Numeric Matrix Processor (Python)](https://github.com/syyynth/hyperskill/tree/main/python/0096%20-%20Numeric%20Matrix%20Processor%20(Python)) - https://hyperskill.org/projects/96
 43) 👷🏼‍♂️ Multilingual Online Translator - https://hyperskill.org/projects/99
 44) 👷🏼‍♂️ Regex Engine (Python) - https://hyperskill.org/projects/114
 45) 👷🏼‍♂️ Easy Rider Bus Company - https://hyperskill.org/projects/128
@@ -71,7 +71,7 @@ python.exe .\task\web\app.py
 48) 👷🏼‍♂️ Duskers - https://hyperskill.org/projects/136
 49) 👷🏼‍♂️ Knight's Tour Puzzle - https://hyperskill.org/projects/141
 50) 👷🏼‍♂️ Convoy Shipping Company - https://hyperskill.org/projects/151
-51) 👷🏼‍♂️ Data Analysis for Hospitals - https://hyperskill.org/projects/152
+51) 🐱‍👤 [Data Analysis for Hospitals](https://github.com/syyynth/hyperskill/tree/main/python/0152%20-%20Data%20Analysis%20for%20Hospitals) - https://hyperskill.org/projects/152
 52) 👷🏼‍♂️ Readability Score (Python) - https://hyperskill.org/projects/155
 53) 👷🏼‍♂️ Memorization Tool - https://hyperskill.org/projects/159
 54) 👷🏼‍♂️ Text Based Adventure Game - https://hyperskill.org/projects/161
@@ -84,7 +84,7 @@ python.exe .\task\web\app.py
 61) 👷🏼‍♂️ Decision Tree from Scratch - https://hyperskill.org/projects/259
 62) 👷🏼‍♂️ Calculator for Investors - https://hyperskill.org/projects/264
 63) 👷🏼‍♂️ Salary Prediction - https://hyperskill.org/projects/287
-64) 👷🏼‍♂️ Nobel Laureates - https://hyperskill.org/projects/302
+64) 🐱‍👤 [Nobel Laureates](https://github.com/syyynth/hyperskill/tree/main/python/0302%20-%20Nobel%20Laureates) - https://hyperskill.org/projects/302
 65) 👷🏼‍♂️ Sorting Tool with Python - https://hyperskill.org/projects/307
 66) 🐱‍👤 [Marathon Runners](https://github.com/syyynth/hyperskill/tree/main/python/0331%20-%20Marathon%20Runners) - https://hyperskill.org/projects/331
 67) 👷🏼‍♂️ Traffic Light (Python) - https://hyperskill.org/projects/351
