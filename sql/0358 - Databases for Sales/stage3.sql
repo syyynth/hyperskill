@@ -3,8 +3,8 @@ create index customer_sales_product on sales (customer_id, product_id);
 create view sales_summary as (
     select
         model,
-        count(model)
-    from 
+        count(model) as total_sold
+    from
         sales
     join
         products using (product_id)
